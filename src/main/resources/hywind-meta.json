@@ -1,0 +1,7318 @@
+{
+  "classes": [
+    {
+      "className": "tab-content",
+      "origin": "HyUI",
+      "description": "(div) Tab content container linked to a tab ID."
+    },
+    {
+      "className": "decorated-container",
+      "origin": "HyUI",
+      "description": "(div) Uses the decorated container UI file for a styled frame."
+    },
+    {
+      "className": "container",
+      "origin": "HyUI",
+      "description": "(div) Uses the container UI file for a frame with minimal style."
+    },
+    {
+      "className": "item-icon",
+      "origin": "HyUI",
+      "description": "(span) Displays an item icon. Use data-hyui-item-id for the item icon."
+    },
+    {
+      "className": "item-slot",
+      "origin": "HyUI",
+      "description": "(span) Displays a full item slot. Use data-hyui-item-id for the item."
+    },
+    {
+      "className": "item-grid",
+      "origin": "HyUI",
+      "description": "(span) Displays an item grid container."
+    },
+    {
+      "className": "item-grid-slot",
+      "origin": "HyUI",
+      "description": "(span) Adds a slot entry inside an item grid."
+    },
+    {
+      "className": "tabs",
+      "origin": "HyUI",
+      "description": "(nav) Tab navigation bar."
+    },
+    {
+      "className": "p-0",
+      "description": "",
+      "origin": "Hywind",
+      "code": "padding: 0"
+    },
+    {
+      "className": "p-1",
+      "description": "",
+      "origin": "Hywind",
+      "code": "padding: 2"
+    },
+    {
+      "className": "p-2",
+      "description": "",
+      "origin": "Hywind",
+      "code": "padding: 4"
+    },
+    {
+      "className": "p-3",
+      "description": "",
+      "origin": "Hywind",
+      "code": "padding: 6"
+    },
+    {
+      "className": "p-4",
+      "description": "",
+      "origin": "Hywind",
+      "code": "padding: 8"
+    },
+    {
+      "className": "p-5",
+      "description": "",
+      "origin": "Hywind",
+      "code": "padding: 10"
+    },
+    {
+      "className": "p-6",
+      "description": "",
+      "origin": "Hywind",
+      "code": "padding: 12"
+    },
+    {
+      "className": "p-7",
+      "description": "",
+      "origin": "Hywind",
+      "code": "padding: 14"
+    },
+    {
+      "className": "p-8",
+      "description": "",
+      "origin": "Hywind",
+      "code": "padding: 16"
+    },
+    {
+      "className": "p-9",
+      "description": "",
+      "origin": "Hywind",
+      "code": "padding: 18"
+    },
+    {
+      "className": "p-10",
+      "description": "",
+      "origin": "Hywind",
+      "code": "padding: 20"
+    },
+    {
+      "className": "flex > *",
+      "description": "",
+      "origin": "Hywind",
+      "code": "flex-weight: 1"
+    },
+    {
+      "className": "flex-col",
+      "description": "",
+      "origin": "Hywind",
+      "code": "layout-mode: left"
+    },
+    {
+      "className": "flex-row",
+      "description": "",
+      "origin": "Hywind",
+      "code": "layout-mode: top"
+    },
+    {
+      "className": "flex-0",
+      "description": "",
+      "origin": "Hywind",
+      "code": "flex-weight: 0"
+    },
+    {
+      "className": "flex-1",
+      "description": "",
+      "origin": "Hywind",
+      "code": "flex-weight: 1"
+    },
+    {
+      "className": "flex-2",
+      "description": "",
+      "origin": "Hywind",
+      "code": "flex-weight: 2"
+    },
+    {
+      "className": "flex-3",
+      "description": "",
+      "origin": "Hywind",
+      "code": "flex-weight: 3"
+    },
+    {
+      "className": "flex-4",
+      "description": "",
+      "origin": "Hywind",
+      "code": "flex-weight: 4"
+    },
+    {
+      "className": "text-uppercase",
+      "description": "",
+      "origin": "Hywind",
+      "code": "text-transform: uppercase"
+    },
+    {
+      "className": "hidden",
+      "description": "",
+      "origin": "Hywind",
+      "code": "visibility: hidden"
+    },
+    {
+      "className": "none",
+      "description": "",
+      "origin": "Hywind",
+      "code": "display: none"
+    },
+    {
+      "className": "hidden",
+      "description": "",
+      "origin": "Hywind",
+      "code": "visibility: hidden"
+    },
+    {
+      "className": "text-left",
+      "description": "",
+      "origin": "Hywind",
+      "code": "text-align: left"
+    },
+    {
+      "className": "text-center",
+      "description": "",
+      "origin": "Hywind",
+      "code": "text-align: center"
+    },
+    {
+      "className": "text-right",
+      "description": "",
+      "origin": "Hywind",
+      "code": "text-align: right"
+    },
+    {
+      "className": "text-top",
+      "description": "",
+      "origin": "Hywind",
+      "code": "text-align: top"
+    },
+    {
+      "className": "text-middle",
+      "description": "",
+      "origin": "Hywind",
+      "code": "text-align: middle"
+    },
+    {
+      "className": "text-bottom",
+      "description": "",
+      "origin": "Hywind",
+      "code": "text-align: bottom"
+    },
+    {
+      "className": "text-topscrolling",
+      "description": "",
+      "origin": "Hywind",
+      "code": "text-align: topscrolling"
+    },
+    {
+      "className": "text-bottomscrolling",
+      "description": "",
+      "origin": "Hywind",
+      "code": "text-align: bottomscrolling"
+    },
+    {
+      "className": "text-middlecenter",
+      "description": "",
+      "origin": "Hywind",
+      "code": "text-align: middlecenter"
+    },
+    {
+      "className": "text-centermiddle",
+      "description": "",
+      "origin": "Hywind",
+      "code": "text-align: centermiddle"
+    },
+    {
+      "className": "text-leftcenterwrap",
+      "description": "",
+      "origin": "Hywind",
+      "code": "text-align: leftcenterwrap"
+    },
+    {
+      "className": "text-rightcenterwrap",
+      "description": "",
+      "origin": "Hywind",
+      "code": "text-align: rightcenterwrap"
+    },
+    {
+      "className": "text-full",
+      "description": "",
+      "origin": "Hywind",
+      "code": "text-align: full"
+    },
+    {
+      "className": "layout-left",
+      "description": "",
+      "origin": "Hywind",
+      "code": "layout: left"
+    },
+    {
+      "className": "layout-center",
+      "description": "",
+      "origin": "Hywind",
+      "code": "layout: center"
+    },
+    {
+      "className": "layout-right",
+      "description": "",
+      "origin": "Hywind",
+      "code": "layout: right"
+    },
+    {
+      "className": "layout-top",
+      "description": "",
+      "origin": "Hywind",
+      "code": "layout: top"
+    },
+    {
+      "className": "layout-middle",
+      "description": "",
+      "origin": "Hywind",
+      "code": "layout: middle"
+    },
+    {
+      "className": "layout-bottom",
+      "description": "",
+      "origin": "Hywind",
+      "code": "layout: bottom"
+    },
+    {
+      "className": "layout-topscrolling",
+      "description": "",
+      "origin": "Hywind",
+      "code": "layout: topscrolling"
+    },
+    {
+      "className": "layout-bottomscrolling",
+      "description": "",
+      "origin": "Hywind",
+      "code": "layout: bottomscrolling"
+    },
+    {
+      "className": "layout-middlecenter",
+      "description": "",
+      "origin": "Hywind",
+      "code": "layout: middlecenter"
+    },
+    {
+      "className": "layout-centermiddle",
+      "description": "",
+      "origin": "Hywind",
+      "code": "layout: centermiddle"
+    },
+    {
+      "className": "layout-leftcenterwrap",
+      "description": "",
+      "origin": "Hywind",
+      "code": "layout: leftcenterwrap"
+    },
+    {
+      "className": "layout-rightcenterwrap",
+      "description": "",
+      "origin": "Hywind",
+      "code": "layout: rightcenterwrap"
+    },
+    {
+      "className": "layout-full",
+      "description": "",
+      "origin": "Hywind",
+      "code": "layout: full"
+    },
+    {
+      "className": "font-bold",
+      "description": "",
+      "origin": "Hywind",
+      "code": "font-weight: bold"
+    },
+    {
+      "className": "font-normal",
+      "description": "",
+      "origin": "Hywind",
+      "code": "font-weight: normal"
+    },
+    {
+      "className": "vertical-top",
+      "description": "",
+      "origin": "Hywind",
+      "code": "vertical-align: top"
+    },
+    {
+      "className": "vertical-middle",
+      "description": "",
+      "origin": "Hywind",
+      "code": "vertical-align: middle"
+    },
+    {
+      "className": "vertical-bottom",
+      "description": "",
+      "origin": "Hywind",
+      "code": "vertical-align: bottom"
+    },
+    {
+      "className": "horizontal-left",
+      "description": "",
+      "origin": "Hywind",
+      "code": "horizontal-align: left"
+    },
+    {
+      "className": "horizontal-center",
+      "description": "",
+      "origin": "Hywind",
+      "code": "horizontal-align: center"
+    },
+    {
+      "className": "horizontal-right",
+      "description": "",
+      "origin": "Hywind",
+      "code": "horizontal-align: right"
+    },
+    {
+      "className": "top-0",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: 0"
+    },
+    {
+      "className": "top-1",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: 2"
+    },
+    {
+      "className": "top-2",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: 4"
+    },
+    {
+      "className": "top-3",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: 6"
+    },
+    {
+      "className": "top-4",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: 8"
+    },
+    {
+      "className": "top-5",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: 10"
+    },
+    {
+      "className": "top-6",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: 12"
+    },
+    {
+      "className": "top-7",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: 14"
+    },
+    {
+      "className": "top-8",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: 16"
+    },
+    {
+      "className": "top-9",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: 18"
+    },
+    {
+      "className": "top-10",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: 20"
+    },
+    {
+      "className": "top-xs",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: 5"
+    },
+    {
+      "className": "top-sm",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: 10"
+    },
+    {
+      "className": "top-md",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: 20"
+    },
+    {
+      "className": "top-lg",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: 30"
+    },
+    {
+      "className": "top-xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: 40"
+    },
+    {
+      "className": "top-2xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: 50"
+    },
+    {
+      "className": "top-3xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: 60"
+    },
+    {
+      "className": "top-4xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: 70"
+    },
+    {
+      "className": "top-5xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: 80"
+    },
+    {
+      "className": "top-6xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: 90"
+    },
+    {
+      "className": "top-7xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: 100"
+    },
+    {
+      "className": "top-8xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: 110"
+    },
+    {
+      "className": "top-9xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: 120"
+    },
+    {
+      "className": "-top-1",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: -2"
+    },
+    {
+      "className": "-top-2",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: -4"
+    },
+    {
+      "className": "-top-3",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: -6"
+    },
+    {
+      "className": "-top-4",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: -8"
+    },
+    {
+      "className": "-top-5",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: -10"
+    },
+    {
+      "className": "-top-6",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: -12"
+    },
+    {
+      "className": "-top-7",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: -14"
+    },
+    {
+      "className": "-top-8",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: -16"
+    },
+    {
+      "className": "-top-9",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: -18"
+    },
+    {
+      "className": "-top-10",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: -20"
+    },
+    {
+      "className": "-top-xs",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: -5"
+    },
+    {
+      "className": "-top-sm",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: -10"
+    },
+    {
+      "className": "-top-md",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: -20"
+    },
+    {
+      "className": "-top-lg",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: -30"
+    },
+    {
+      "className": "-top-xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: -40"
+    },
+    {
+      "className": "-top-2xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: -50"
+    },
+    {
+      "className": "-top-3xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: -60"
+    },
+    {
+      "className": "-top-4xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: -70"
+    },
+    {
+      "className": "-top-5xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: -80"
+    },
+    {
+      "className": "-top-6xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: -90"
+    },
+    {
+      "className": "-top-7xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: -100"
+    },
+    {
+      "className": "-top-8xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: -110"
+    },
+    {
+      "className": "-top-9xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-top: -120"
+    },
+    {
+      "className": "left-0",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: 0"
+    },
+    {
+      "className": "left-1",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: 2"
+    },
+    {
+      "className": "left-2",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: 4"
+    },
+    {
+      "className": "left-3",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: 6"
+    },
+    {
+      "className": "left-4",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: 8"
+    },
+    {
+      "className": "left-5",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: 10"
+    },
+    {
+      "className": "left-6",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: 12"
+    },
+    {
+      "className": "left-7",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: 14"
+    },
+    {
+      "className": "left-8",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: 16"
+    },
+    {
+      "className": "left-9",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: 18"
+    },
+    {
+      "className": "left-10",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: 20"
+    },
+    {
+      "className": "left-xs",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: 5"
+    },
+    {
+      "className": "left-sm",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: 10"
+    },
+    {
+      "className": "left-md",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: 20"
+    },
+    {
+      "className": "left-lg",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: 30"
+    },
+    {
+      "className": "left-xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: 40"
+    },
+    {
+      "className": "left-2xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: 50"
+    },
+    {
+      "className": "left-3xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: 60"
+    },
+    {
+      "className": "left-4xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: 70"
+    },
+    {
+      "className": "left-5xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: 80"
+    },
+    {
+      "className": "left-6xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: 90"
+    },
+    {
+      "className": "left-7xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: 100"
+    },
+    {
+      "className": "left-8xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: 110"
+    },
+    {
+      "className": "left-9xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: 120"
+    },
+    {
+      "className": "-left-1",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: -2"
+    },
+    {
+      "className": "-left-2",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: -4"
+    },
+    {
+      "className": "-left-3",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: -6"
+    },
+    {
+      "className": "-left-4",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: -8"
+    },
+    {
+      "className": "-left-5",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: -10"
+    },
+    {
+      "className": "-left-6",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: -12"
+    },
+    {
+      "className": "-left-7",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: -14"
+    },
+    {
+      "className": "-left-8",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: -16"
+    },
+    {
+      "className": "-left-9",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: -18"
+    },
+    {
+      "className": "-left-10",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: -20"
+    },
+    {
+      "className": "-left-xs",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: -5"
+    },
+    {
+      "className": "-left-sm",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: -10"
+    },
+    {
+      "className": "-left-md",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: -20"
+    },
+    {
+      "className": "-left-lg",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: -30"
+    },
+    {
+      "className": "-left-xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: -40"
+    },
+    {
+      "className": "-left-2xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: -50"
+    },
+    {
+      "className": "-left-3xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: -60"
+    },
+    {
+      "className": "-left-4xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: -70"
+    },
+    {
+      "className": "-left-5xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: -80"
+    },
+    {
+      "className": "-left-6xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: -90"
+    },
+    {
+      "className": "-left-7xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: -100"
+    },
+    {
+      "className": "-left-8xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: -110"
+    },
+    {
+      "className": "-left-9xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-left: -120"
+    },
+    {
+      "className": "bottom-0",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: 0"
+    },
+    {
+      "className": "bottom-1",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: 2"
+    },
+    {
+      "className": "bottom-2",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: 4"
+    },
+    {
+      "className": "bottom-3",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: 6"
+    },
+    {
+      "className": "bottom-4",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: 8"
+    },
+    {
+      "className": "bottom-5",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: 10"
+    },
+    {
+      "className": "bottom-6",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: 12"
+    },
+    {
+      "className": "bottom-7",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: 14"
+    },
+    {
+      "className": "bottom-8",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: 16"
+    },
+    {
+      "className": "bottom-9",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: 18"
+    },
+    {
+      "className": "bottom-10",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: 20"
+    },
+    {
+      "className": "bottom-xs",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: 5"
+    },
+    {
+      "className": "bottom-sm",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: 10"
+    },
+    {
+      "className": "bottom-md",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: 20"
+    },
+    {
+      "className": "bottom-lg",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: 30"
+    },
+    {
+      "className": "bottom-xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: 40"
+    },
+    {
+      "className": "bottom-2xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: 50"
+    },
+    {
+      "className": "bottom-3xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: 60"
+    },
+    {
+      "className": "bottom-4xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: 70"
+    },
+    {
+      "className": "bottom-5xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: 80"
+    },
+    {
+      "className": "bottom-6xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: 90"
+    },
+    {
+      "className": "bottom-7xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: 100"
+    },
+    {
+      "className": "bottom-8xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: 110"
+    },
+    {
+      "className": "bottom-9xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: 120"
+    },
+    {
+      "className": "-bottom-1",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: -2"
+    },
+    {
+      "className": "-bottom-2",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: -4"
+    },
+    {
+      "className": "-bottom-3",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: -6"
+    },
+    {
+      "className": "-bottom-4",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: -8"
+    },
+    {
+      "className": "-bottom-5",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: -10"
+    },
+    {
+      "className": "-bottom-6",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: -12"
+    },
+    {
+      "className": "-bottom-7",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: -14"
+    },
+    {
+      "className": "-bottom-8",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: -16"
+    },
+    {
+      "className": "-bottom-9",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: -18"
+    },
+    {
+      "className": "-bottom-10",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: -20"
+    },
+    {
+      "className": "-bottom-xs",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: -5"
+    },
+    {
+      "className": "-bottom-sm",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: -10"
+    },
+    {
+      "className": "-bottom-md",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: -20"
+    },
+    {
+      "className": "-bottom-lg",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: -30"
+    },
+    {
+      "className": "-bottom-xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: -40"
+    },
+    {
+      "className": "-bottom-2xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: -50"
+    },
+    {
+      "className": "-bottom-3xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: -60"
+    },
+    {
+      "className": "-bottom-4xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: -70"
+    },
+    {
+      "className": "-bottom-5xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: -80"
+    },
+    {
+      "className": "-bottom-6xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: -90"
+    },
+    {
+      "className": "-bottom-7xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: -100"
+    },
+    {
+      "className": "-bottom-8xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: -110"
+    },
+    {
+      "className": "-bottom-9xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-bottom: -120"
+    },
+    {
+      "className": "right-0",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: 0"
+    },
+    {
+      "className": "right-1",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: 2"
+    },
+    {
+      "className": "right-2",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: 4"
+    },
+    {
+      "className": "right-3",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: 6"
+    },
+    {
+      "className": "right-4",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: 8"
+    },
+    {
+      "className": "right-5",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: 10"
+    },
+    {
+      "className": "right-6",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: 12"
+    },
+    {
+      "className": "right-7",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: 14"
+    },
+    {
+      "className": "right-8",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: 16"
+    },
+    {
+      "className": "right-9",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: 18"
+    },
+    {
+      "className": "right-10",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: 20"
+    },
+    {
+      "className": "right-xs",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: 5"
+    },
+    {
+      "className": "right-sm",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: 10"
+    },
+    {
+      "className": "right-md",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: 20"
+    },
+    {
+      "className": "right-lg",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: 30"
+    },
+    {
+      "className": "right-xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: 40"
+    },
+    {
+      "className": "right-2xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: 50"
+    },
+    {
+      "className": "right-3xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: 60"
+    },
+    {
+      "className": "right-4xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: 70"
+    },
+    {
+      "className": "right-5xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: 80"
+    },
+    {
+      "className": "right-6xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: 90"
+    },
+    {
+      "className": "right-7xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: 100"
+    },
+    {
+      "className": "right-8xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: 110"
+    },
+    {
+      "className": "right-9xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: 120"
+    },
+    {
+      "className": "-right-1",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: -2"
+    },
+    {
+      "className": "-right-2",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: -4"
+    },
+    {
+      "className": "-right-3",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: -6"
+    },
+    {
+      "className": "-right-4",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: -8"
+    },
+    {
+      "className": "-right-5",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: -10"
+    },
+    {
+      "className": "-right-6",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: -12"
+    },
+    {
+      "className": "-right-7",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: -14"
+    },
+    {
+      "className": "-right-8",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: -16"
+    },
+    {
+      "className": "-right-9",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: -18"
+    },
+    {
+      "className": "-right-10",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: -20"
+    },
+    {
+      "className": "-right-xs",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: -5"
+    },
+    {
+      "className": "-right-sm",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: -10"
+    },
+    {
+      "className": "-right-md",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: -20"
+    },
+    {
+      "className": "-right-lg",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: -30"
+    },
+    {
+      "className": "-right-xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: -40"
+    },
+    {
+      "className": "-right-2xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: -50"
+    },
+    {
+      "className": "-right-3xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: -60"
+    },
+    {
+      "className": "-right-4xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: -70"
+    },
+    {
+      "className": "-right-5xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: -80"
+    },
+    {
+      "className": "-right-6xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: -90"
+    },
+    {
+      "className": "-right-7xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: -100"
+    },
+    {
+      "className": "-right-8xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: -110"
+    },
+    {
+      "className": "-right-9xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-right: -120"
+    },
+    {
+      "className": "w-xs",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-width: 10"
+    },
+    {
+      "className": "w-sm",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-width: 20"
+    },
+    {
+      "className": "w-md",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-width: 40"
+    },
+    {
+      "className": "w-lg",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-width: 80"
+    },
+    {
+      "className": "w-xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-width: 160"
+    },
+    {
+      "className": "w-2xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-width: 200"
+    },
+    {
+      "className": "w-3xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-width: 300"
+    },
+    {
+      "className": "w-4xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-width: 400"
+    },
+    {
+      "className": "w-5xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-width: 500"
+    },
+    {
+      "className": "w-6xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-width: 600"
+    },
+    {
+      "className": "w-7xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-width: 700"
+    },
+    {
+      "className": "w-8xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-width: 800"
+    },
+    {
+      "className": "w-9xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-width: 900"
+    },
+    {
+      "className": "h-xs",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-height: 10"
+    },
+    {
+      "className": "h-sm",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-height: 20"
+    },
+    {
+      "className": "h-md",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-height: 40"
+    },
+    {
+      "className": "h-lg",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-height: 80"
+    },
+    {
+      "className": "h-xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-height: 160"
+    },
+    {
+      "className": "h-2xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-height: 200"
+    },
+    {
+      "className": "h-3xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-height: 300"
+    },
+    {
+      "className": "h-4xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-height: 400"
+    },
+    {
+      "className": "h-5xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-height: 500"
+    },
+    {
+      "className": "h-6xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-height: 600"
+    },
+    {
+      "className": "h-7xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-height: 700"
+    },
+    {
+      "className": "h-8xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-height: 800"
+    },
+    {
+      "className": "h-9xl",
+      "description": "",
+      "origin": "Hywind",
+      "code": "anchor-height: 900"
+    },
+    {
+      "className": "text-xs",
+      "description": "Sets text size to xs",
+      "origin": "Hywind",
+      "code": "font-size: 10"
+    },
+    {
+      "className": "text-sm",
+      "description": "Sets text size to sm",
+      "origin": "Hywind",
+      "code": "font-size: 13"
+    },
+    {
+      "className": "text-md",
+      "description": "Sets text size to md",
+      "origin": "Hywind",
+      "code": "font-size: 16"
+    },
+    {
+      "className": "text-lg",
+      "description": "Sets text size to lg",
+      "origin": "Hywind",
+      "code": "font-size: 20"
+    },
+    {
+      "className": "text-xl",
+      "description": "Sets text size to xl",
+      "origin": "Hywind",
+      "code": "font-size: 24"
+    },
+    {
+      "className": "bg-slate-50",
+      "description": "Sets background color to slate",
+      "origin": "Hywind",
+      "code": "background-color: rgb(248, 250, 252)",
+      "previewColor": {
+        "r": 248,
+        "g": 250,
+        "b": 252
+      }
+    },
+    {
+      "className": "bg-slate-100",
+      "description": "Sets background color to slate",
+      "origin": "Hywind",
+      "code": "background-color: rgb(241, 245, 249)",
+      "previewColor": {
+        "r": 241,
+        "g": 245,
+        "b": 249
+      }
+    },
+    {
+      "className": "bg-slate-200",
+      "description": "Sets background color to slate",
+      "origin": "Hywind",
+      "code": "background-color: rgb(226, 232, 240)",
+      "previewColor": {
+        "r": 226,
+        "g": 232,
+        "b": 240
+      }
+    },
+    {
+      "className": "bg-slate-300",
+      "description": "Sets background color to slate",
+      "origin": "Hywind",
+      "code": "background-color: rgb(202, 213, 226)",
+      "previewColor": {
+        "r": 202,
+        "g": 213,
+        "b": 226
+      }
+    },
+    {
+      "className": "bg-slate-400",
+      "description": "Sets background color to slate",
+      "origin": "Hywind",
+      "code": "background-color: rgb(144, 161, 185)",
+      "previewColor": {
+        "r": 144,
+        "g": 161,
+        "b": 185
+      }
+    },
+    {
+      "className": "bg-slate-500",
+      "description": "Sets background color to slate",
+      "origin": "Hywind",
+      "code": "background-color: rgb(98, 116, 142)",
+      "previewColor": {
+        "r": 98,
+        "g": 116,
+        "b": 142
+      }
+    },
+    {
+      "className": "bg-slate-600",
+      "description": "Sets background color to slate",
+      "origin": "Hywind",
+      "code": "background-color: rgb(69, 85, 108)",
+      "previewColor": {
+        "r": 69,
+        "g": 85,
+        "b": 108
+      }
+    },
+    {
+      "className": "bg-slate-700",
+      "description": "Sets background color to slate",
+      "origin": "Hywind",
+      "code": "background-color: rgb(49, 65, 88)",
+      "previewColor": {
+        "r": 49,
+        "g": 65,
+        "b": 88
+      }
+    },
+    {
+      "className": "bg-slate-800",
+      "description": "Sets background color to slate",
+      "origin": "Hywind",
+      "code": "background-color: rgb(29, 41, 61)",
+      "previewColor": {
+        "r": 29,
+        "g": 41,
+        "b": 61
+      }
+    },
+    {
+      "className": "bg-slate-900",
+      "description": "Sets background color to slate",
+      "origin": "Hywind",
+      "code": "background-color: rgb(15, 23, 43)",
+      "previewColor": {
+        "r": 15,
+        "g": 23,
+        "b": 43
+      }
+    },
+    {
+      "className": "bg-slate-950",
+      "description": "Sets background color to slate",
+      "origin": "Hywind",
+      "code": "background-color: rgb(2, 6, 24)",
+      "previewColor": {
+        "r": 2,
+        "g": 6,
+        "b": 24
+      }
+    },
+    {
+      "className": "bg-gray-50",
+      "description": "Sets background color to gray",
+      "origin": "Hywind",
+      "code": "background-color: rgb(249, 250, 251)",
+      "previewColor": {
+        "r": 249,
+        "g": 250,
+        "b": 251
+      }
+    },
+    {
+      "className": "bg-gray-100",
+      "description": "Sets background color to gray",
+      "origin": "Hywind",
+      "code": "background-color: rgb(243, 244, 246)",
+      "previewColor": {
+        "r": 243,
+        "g": 244,
+        "b": 246
+      }
+    },
+    {
+      "className": "bg-gray-200",
+      "description": "Sets background color to gray",
+      "origin": "Hywind",
+      "code": "background-color: rgb(229, 231, 235)",
+      "previewColor": {
+        "r": 229,
+        "g": 231,
+        "b": 235
+      }
+    },
+    {
+      "className": "bg-gray-300",
+      "description": "Sets background color to gray",
+      "origin": "Hywind",
+      "code": "background-color: rgb(209, 213, 220)",
+      "previewColor": {
+        "r": 209,
+        "g": 213,
+        "b": 220
+      }
+    },
+    {
+      "className": "bg-gray-400",
+      "description": "Sets background color to gray",
+      "origin": "Hywind",
+      "code": "background-color: rgb(153, 161, 175)",
+      "previewColor": {
+        "r": 153,
+        "g": 161,
+        "b": 175
+      }
+    },
+    {
+      "className": "bg-gray-500",
+      "description": "Sets background color to gray",
+      "origin": "Hywind",
+      "code": "background-color: rgb(106, 114, 130)",
+      "previewColor": {
+        "r": 106,
+        "g": 114,
+        "b": 130
+      }
+    },
+    {
+      "className": "bg-gray-600",
+      "description": "Sets background color to gray",
+      "origin": "Hywind",
+      "code": "background-color: rgb(74, 85, 101)",
+      "previewColor": {
+        "r": 74,
+        "g": 85,
+        "b": 101
+      }
+    },
+    {
+      "className": "bg-gray-700",
+      "description": "Sets background color to gray",
+      "origin": "Hywind",
+      "code": "background-color: rgb(54, 65, 83)",
+      "previewColor": {
+        "r": 54,
+        "g": 65,
+        "b": 83
+      }
+    },
+    {
+      "className": "bg-gray-800",
+      "description": "Sets background color to gray",
+      "origin": "Hywind",
+      "code": "background-color: rgb(30, 41, 57)",
+      "previewColor": {
+        "r": 30,
+        "g": 41,
+        "b": 57
+      }
+    },
+    {
+      "className": "bg-gray-900",
+      "description": "Sets background color to gray",
+      "origin": "Hywind",
+      "code": "background-color: rgb(16, 24, 40)",
+      "previewColor": {
+        "r": 16,
+        "g": 24,
+        "b": 40
+      }
+    },
+    {
+      "className": "bg-gray-950",
+      "description": "Sets background color to gray",
+      "origin": "Hywind",
+      "code": "background-color: rgb(3, 7, 18)",
+      "previewColor": {
+        "r": 3,
+        "g": 7,
+        "b": 18
+      }
+    },
+    {
+      "className": "bg-zinc-50",
+      "description": "Sets background color to zinc",
+      "origin": "Hywind",
+      "code": "background-color: rgb(250, 250, 250)",
+      "previewColor": {
+        "r": 250,
+        "g": 250,
+        "b": 250
+      }
+    },
+    {
+      "className": "bg-zinc-100",
+      "description": "Sets background color to zinc",
+      "origin": "Hywind",
+      "code": "background-color: rgb(244, 244, 245)",
+      "previewColor": {
+        "r": 244,
+        "g": 244,
+        "b": 245
+      }
+    },
+    {
+      "className": "bg-zinc-200",
+      "description": "Sets background color to zinc",
+      "origin": "Hywind",
+      "code": "background-color: rgb(228, 228, 231)",
+      "previewColor": {
+        "r": 228,
+        "g": 228,
+        "b": 231
+      }
+    },
+    {
+      "className": "bg-zinc-300",
+      "description": "Sets background color to zinc",
+      "origin": "Hywind",
+      "code": "background-color: rgb(212, 212, 216)",
+      "previewColor": {
+        "r": 212,
+        "g": 212,
+        "b": 216
+      }
+    },
+    {
+      "className": "bg-zinc-400",
+      "description": "Sets background color to zinc",
+      "origin": "Hywind",
+      "code": "background-color: rgb(159, 159, 169)",
+      "previewColor": {
+        "r": 159,
+        "g": 159,
+        "b": 169
+      }
+    },
+    {
+      "className": "bg-zinc-500",
+      "description": "Sets background color to zinc",
+      "origin": "Hywind",
+      "code": "background-color: rgb(113, 113, 123)",
+      "previewColor": {
+        "r": 113,
+        "g": 113,
+        "b": 123
+      }
+    },
+    {
+      "className": "bg-zinc-600",
+      "description": "Sets background color to zinc",
+      "origin": "Hywind",
+      "code": "background-color: rgb(82, 82, 92)",
+      "previewColor": {
+        "r": 82,
+        "g": 82,
+        "b": 92
+      }
+    },
+    {
+      "className": "bg-zinc-700",
+      "description": "Sets background color to zinc",
+      "origin": "Hywind",
+      "code": "background-color: rgb(63, 63, 70)",
+      "previewColor": {
+        "r": 63,
+        "g": 63,
+        "b": 70
+      }
+    },
+    {
+      "className": "bg-zinc-800",
+      "description": "Sets background color to zinc",
+      "origin": "Hywind",
+      "code": "background-color: rgb(39, 39, 42)",
+      "previewColor": {
+        "r": 39,
+        "g": 39,
+        "b": 42
+      }
+    },
+    {
+      "className": "bg-zinc-900",
+      "description": "Sets background color to zinc",
+      "origin": "Hywind",
+      "code": "background-color: rgb(24, 24, 27)",
+      "previewColor": {
+        "r": 24,
+        "g": 24,
+        "b": 27
+      }
+    },
+    {
+      "className": "bg-zinc-950",
+      "description": "Sets background color to zinc",
+      "origin": "Hywind",
+      "code": "background-color: rgb(9, 9, 11)",
+      "previewColor": {
+        "r": 9,
+        "g": 9,
+        "b": 11
+      }
+    },
+    {
+      "className": "bg-neutral-50",
+      "description": "Sets background color to neutral",
+      "origin": "Hywind",
+      "code": "background-color: rgb(250, 250, 250)",
+      "previewColor": {
+        "r": 250,
+        "g": 250,
+        "b": 250
+      }
+    },
+    {
+      "className": "bg-neutral-100",
+      "description": "Sets background color to neutral",
+      "origin": "Hywind",
+      "code": "background-color: rgb(245, 245, 245)",
+      "previewColor": {
+        "r": 245,
+        "g": 245,
+        "b": 245
+      }
+    },
+    {
+      "className": "bg-neutral-200",
+      "description": "Sets background color to neutral",
+      "origin": "Hywind",
+      "code": "background-color: rgb(229, 229, 229)",
+      "previewColor": {
+        "r": 229,
+        "g": 229,
+        "b": 229
+      }
+    },
+    {
+      "className": "bg-neutral-300",
+      "description": "Sets background color to neutral",
+      "origin": "Hywind",
+      "code": "background-color: rgb(212, 212, 212)",
+      "previewColor": {
+        "r": 212,
+        "g": 212,
+        "b": 212
+      }
+    },
+    {
+      "className": "bg-neutral-400",
+      "description": "Sets background color to neutral",
+      "origin": "Hywind",
+      "code": "background-color: rgb(161, 161, 161)",
+      "previewColor": {
+        "r": 161,
+        "g": 161,
+        "b": 161
+      }
+    },
+    {
+      "className": "bg-neutral-500",
+      "description": "Sets background color to neutral",
+      "origin": "Hywind",
+      "code": "background-color: rgb(115, 115, 115)",
+      "previewColor": {
+        "r": 115,
+        "g": 115,
+        "b": 115
+      }
+    },
+    {
+      "className": "bg-neutral-600",
+      "description": "Sets background color to neutral",
+      "origin": "Hywind",
+      "code": "background-color: rgb(82, 82, 82)",
+      "previewColor": {
+        "r": 82,
+        "g": 82,
+        "b": 82
+      }
+    },
+    {
+      "className": "bg-neutral-700",
+      "description": "Sets background color to neutral",
+      "origin": "Hywind",
+      "code": "background-color: rgb(64, 64, 64)",
+      "previewColor": {
+        "r": 64,
+        "g": 64,
+        "b": 64
+      }
+    },
+    {
+      "className": "bg-neutral-800",
+      "description": "Sets background color to neutral",
+      "origin": "Hywind",
+      "code": "background-color: rgb(38, 38, 38)",
+      "previewColor": {
+        "r": 38,
+        "g": 38,
+        "b": 38
+      }
+    },
+    {
+      "className": "bg-neutral-900",
+      "description": "Sets background color to neutral",
+      "origin": "Hywind",
+      "code": "background-color: rgb(23, 23, 23)",
+      "previewColor": {
+        "r": 23,
+        "g": 23,
+        "b": 23
+      }
+    },
+    {
+      "className": "bg-neutral-950",
+      "description": "Sets background color to neutral",
+      "origin": "Hywind",
+      "code": "background-color: rgb(10, 10, 10)",
+      "previewColor": {
+        "r": 10,
+        "g": 10,
+        "b": 10
+      }
+    },
+    {
+      "className": "bg-stone-50",
+      "description": "Sets background color to stone",
+      "origin": "Hywind",
+      "code": "background-color: rgb(250, 250, 249)",
+      "previewColor": {
+        "r": 250,
+        "g": 250,
+        "b": 249
+      }
+    },
+    {
+      "className": "bg-stone-100",
+      "description": "Sets background color to stone",
+      "origin": "Hywind",
+      "code": "background-color: rgb(245, 245, 244)",
+      "previewColor": {
+        "r": 245,
+        "g": 245,
+        "b": 244
+      }
+    },
+    {
+      "className": "bg-stone-200",
+      "description": "Sets background color to stone",
+      "origin": "Hywind",
+      "code": "background-color: rgb(231, 229, 228)",
+      "previewColor": {
+        "r": 231,
+        "g": 229,
+        "b": 228
+      }
+    },
+    {
+      "className": "bg-stone-300",
+      "description": "Sets background color to stone",
+      "origin": "Hywind",
+      "code": "background-color: rgb(214, 211, 209)",
+      "previewColor": {
+        "r": 214,
+        "g": 211,
+        "b": 209
+      }
+    },
+    {
+      "className": "bg-stone-400",
+      "description": "Sets background color to stone",
+      "origin": "Hywind",
+      "code": "background-color: rgb(166, 160, 155)",
+      "previewColor": {
+        "r": 166,
+        "g": 160,
+        "b": 155
+      }
+    },
+    {
+      "className": "bg-stone-500",
+      "description": "Sets background color to stone",
+      "origin": "Hywind",
+      "code": "background-color: rgb(121, 113, 107)",
+      "previewColor": {
+        "r": 121,
+        "g": 113,
+        "b": 107
+      }
+    },
+    {
+      "className": "bg-stone-600",
+      "description": "Sets background color to stone",
+      "origin": "Hywind",
+      "code": "background-color: rgb(87, 83, 77)",
+      "previewColor": {
+        "r": 87,
+        "g": 83,
+        "b": 77
+      }
+    },
+    {
+      "className": "bg-stone-700",
+      "description": "Sets background color to stone",
+      "origin": "Hywind",
+      "code": "background-color: rgb(68, 64, 59)",
+      "previewColor": {
+        "r": 68,
+        "g": 64,
+        "b": 59
+      }
+    },
+    {
+      "className": "bg-stone-800",
+      "description": "Sets background color to stone",
+      "origin": "Hywind",
+      "code": "background-color: rgb(41, 37, 36)",
+      "previewColor": {
+        "r": 41,
+        "g": 37,
+        "b": 36
+      }
+    },
+    {
+      "className": "bg-stone-900",
+      "description": "Sets background color to stone",
+      "origin": "Hywind",
+      "code": "background-color: rgb(28, 25, 23)",
+      "previewColor": {
+        "r": 28,
+        "g": 25,
+        "b": 23
+      }
+    },
+    {
+      "className": "bg-stone-950",
+      "description": "Sets background color to stone",
+      "origin": "Hywind",
+      "code": "background-color: rgb(12, 10, 9)",
+      "previewColor": {
+        "r": 12,
+        "g": 10,
+        "b": 9
+      }
+    },
+    {
+      "className": "bg-red-50",
+      "description": "Sets background color to red",
+      "origin": "Hywind",
+      "code": "background-color: rgb(254, 242, 242)",
+      "previewColor": {
+        "r": 254,
+        "g": 242,
+        "b": 242
+      }
+    },
+    {
+      "className": "bg-red-100",
+      "description": "Sets background color to red",
+      "origin": "Hywind",
+      "code": "background-color: rgb(255, 226, 226)",
+      "previewColor": {
+        "r": 255,
+        "g": 226,
+        "b": 226
+      }
+    },
+    {
+      "className": "bg-red-200",
+      "description": "Sets background color to red",
+      "origin": "Hywind",
+      "code": "background-color: rgb(255, 201, 201)",
+      "previewColor": {
+        "r": 255,
+        "g": 201,
+        "b": 201
+      }
+    },
+    {
+      "className": "bg-red-300",
+      "description": "Sets background color to red",
+      "origin": "Hywind",
+      "code": "background-color: rgb(255, 162, 162)",
+      "previewColor": {
+        "r": 255,
+        "g": 162,
+        "b": 162
+      }
+    },
+    {
+      "className": "bg-red-400",
+      "description": "Sets background color to red",
+      "origin": "Hywind",
+      "code": "background-color: rgb(255, 100, 103)",
+      "previewColor": {
+        "r": 255,
+        "g": 100,
+        "b": 103
+      }
+    },
+    {
+      "className": "bg-red-500",
+      "description": "Sets background color to red",
+      "origin": "Hywind",
+      "code": "background-color: rgb(251, 44, 54)",
+      "previewColor": {
+        "r": 251,
+        "g": 44,
+        "b": 54
+      }
+    },
+    {
+      "className": "bg-red-600",
+      "description": "Sets background color to red",
+      "origin": "Hywind",
+      "code": "background-color: rgb(231, 0, 11)",
+      "previewColor": {
+        "r": 231,
+        "g": 0,
+        "b": 11
+      }
+    },
+    {
+      "className": "bg-red-700",
+      "description": "Sets background color to red",
+      "origin": "Hywind",
+      "code": "background-color: rgb(193, 0, 7)",
+      "previewColor": {
+        "r": 193,
+        "g": 0,
+        "b": 7
+      }
+    },
+    {
+      "className": "bg-red-800",
+      "description": "Sets background color to red",
+      "origin": "Hywind",
+      "code": "background-color: rgb(159, 7, 18)",
+      "previewColor": {
+        "r": 159,
+        "g": 7,
+        "b": 18
+      }
+    },
+    {
+      "className": "bg-red-900",
+      "description": "Sets background color to red",
+      "origin": "Hywind",
+      "code": "background-color: rgb(130, 24, 26)",
+      "previewColor": {
+        "r": 130,
+        "g": 24,
+        "b": 26
+      }
+    },
+    {
+      "className": "bg-red-950",
+      "description": "Sets background color to red",
+      "origin": "Hywind",
+      "code": "background-color: rgb(70, 8, 9)",
+      "previewColor": {
+        "r": 70,
+        "g": 8,
+        "b": 9
+      }
+    },
+    {
+      "className": "bg-orange-50",
+      "description": "Sets background color to orange",
+      "origin": "Hywind",
+      "code": "background-color: rgb(255, 247, 237)",
+      "previewColor": {
+        "r": 255,
+        "g": 247,
+        "b": 237
+      }
+    },
+    {
+      "className": "bg-orange-100",
+      "description": "Sets background color to orange",
+      "origin": "Hywind",
+      "code": "background-color: rgb(255, 237, 212)",
+      "previewColor": {
+        "r": 255,
+        "g": 237,
+        "b": 212
+      }
+    },
+    {
+      "className": "bg-orange-200",
+      "description": "Sets background color to orange",
+      "origin": "Hywind",
+      "code": "background-color: rgb(255, 214, 167)",
+      "previewColor": {
+        "r": 255,
+        "g": 214,
+        "b": 167
+      }
+    },
+    {
+      "className": "bg-orange-300",
+      "description": "Sets background color to orange",
+      "origin": "Hywind",
+      "code": "background-color: rgb(255, 184, 106)",
+      "previewColor": {
+        "r": 255,
+        "g": 184,
+        "b": 106
+      }
+    },
+    {
+      "className": "bg-orange-400",
+      "description": "Sets background color to orange",
+      "origin": "Hywind",
+      "code": "background-color: rgb(255, 137, 4)",
+      "previewColor": {
+        "r": 255,
+        "g": 137,
+        "b": 4
+      }
+    },
+    {
+      "className": "bg-orange-500",
+      "description": "Sets background color to orange",
+      "origin": "Hywind",
+      "code": "background-color: rgb(255, 105, 0)",
+      "previewColor": {
+        "r": 255,
+        "g": 105,
+        "b": 0
+      }
+    },
+    {
+      "className": "bg-orange-600",
+      "description": "Sets background color to orange",
+      "origin": "Hywind",
+      "code": "background-color: rgb(245, 73, 0)",
+      "previewColor": {
+        "r": 245,
+        "g": 73,
+        "b": 0
+      }
+    },
+    {
+      "className": "bg-orange-700",
+      "description": "Sets background color to orange",
+      "origin": "Hywind",
+      "code": "background-color: rgb(202, 53, 0)",
+      "previewColor": {
+        "r": 202,
+        "g": 53,
+        "b": 0
+      }
+    },
+    {
+      "className": "bg-orange-800",
+      "description": "Sets background color to orange",
+      "origin": "Hywind",
+      "code": "background-color: rgb(159, 45, 0)",
+      "previewColor": {
+        "r": 159,
+        "g": 45,
+        "b": 0
+      }
+    },
+    {
+      "className": "bg-orange-900",
+      "description": "Sets background color to orange",
+      "origin": "Hywind",
+      "code": "background-color: rgb(126, 42, 12)",
+      "previewColor": {
+        "r": 126,
+        "g": 42,
+        "b": 12
+      }
+    },
+    {
+      "className": "bg-orange-950",
+      "description": "Sets background color to orange",
+      "origin": "Hywind",
+      "code": "background-color: rgb(68, 19, 6)",
+      "previewColor": {
+        "r": 68,
+        "g": 19,
+        "b": 6
+      }
+    },
+    {
+      "className": "bg-amber-50",
+      "description": "Sets background color to amber",
+      "origin": "Hywind",
+      "code": "background-color: rgb(255, 251, 235)",
+      "previewColor": {
+        "r": 255,
+        "g": 251,
+        "b": 235
+      }
+    },
+    {
+      "className": "bg-amber-100",
+      "description": "Sets background color to amber",
+      "origin": "Hywind",
+      "code": "background-color: rgb(254, 243, 198)",
+      "previewColor": {
+        "r": 254,
+        "g": 243,
+        "b": 198
+      }
+    },
+    {
+      "className": "bg-amber-200",
+      "description": "Sets background color to amber",
+      "origin": "Hywind",
+      "code": "background-color: rgb(254, 230, 133)",
+      "previewColor": {
+        "r": 254,
+        "g": 230,
+        "b": 133
+      }
+    },
+    {
+      "className": "bg-amber-300",
+      "description": "Sets background color to amber",
+      "origin": "Hywind",
+      "code": "background-color: rgb(255, 210, 48)",
+      "previewColor": {
+        "r": 255,
+        "g": 210,
+        "b": 48
+      }
+    },
+    {
+      "className": "bg-amber-400",
+      "description": "Sets background color to amber",
+      "origin": "Hywind",
+      "code": "background-color: rgb(255, 185, 0)",
+      "previewColor": {
+        "r": 255,
+        "g": 185,
+        "b": 0
+      }
+    },
+    {
+      "className": "bg-amber-500",
+      "description": "Sets background color to amber",
+      "origin": "Hywind",
+      "code": "background-color: rgb(254, 154, 0)",
+      "previewColor": {
+        "r": 254,
+        "g": 154,
+        "b": 0
+      }
+    },
+    {
+      "className": "bg-amber-600",
+      "description": "Sets background color to amber",
+      "origin": "Hywind",
+      "code": "background-color: rgb(225, 113, 0)",
+      "previewColor": {
+        "r": 225,
+        "g": 113,
+        "b": 0
+      }
+    },
+    {
+      "className": "bg-amber-700",
+      "description": "Sets background color to amber",
+      "origin": "Hywind",
+      "code": "background-color: rgb(187, 77, 0)",
+      "previewColor": {
+        "r": 187,
+        "g": 77,
+        "b": 0
+      }
+    },
+    {
+      "className": "bg-amber-800",
+      "description": "Sets background color to amber",
+      "origin": "Hywind",
+      "code": "background-color: rgb(151, 60, 0)",
+      "previewColor": {
+        "r": 151,
+        "g": 60,
+        "b": 0
+      }
+    },
+    {
+      "className": "bg-amber-900",
+      "description": "Sets background color to amber",
+      "origin": "Hywind",
+      "code": "background-color: rgb(123, 51, 6)",
+      "previewColor": {
+        "r": 123,
+        "g": 51,
+        "b": 6
+      }
+    },
+    {
+      "className": "bg-amber-950",
+      "description": "Sets background color to amber",
+      "origin": "Hywind",
+      "code": "background-color: rgb(70, 25, 1)",
+      "previewColor": {
+        "r": 70,
+        "g": 25,
+        "b": 1
+      }
+    },
+    {
+      "className": "bg-yellow-50",
+      "description": "Sets background color to yellow",
+      "origin": "Hywind",
+      "code": "background-color: rgb(254, 252, 232)",
+      "previewColor": {
+        "r": 254,
+        "g": 252,
+        "b": 232
+      }
+    },
+    {
+      "className": "bg-yellow-100",
+      "description": "Sets background color to yellow",
+      "origin": "Hywind",
+      "code": "background-color: rgb(254, 249, 194)",
+      "previewColor": {
+        "r": 254,
+        "g": 249,
+        "b": 194
+      }
+    },
+    {
+      "className": "bg-yellow-200",
+      "description": "Sets background color to yellow",
+      "origin": "Hywind",
+      "code": "background-color: rgb(255, 240, 133)",
+      "previewColor": {
+        "r": 255,
+        "g": 240,
+        "b": 133
+      }
+    },
+    {
+      "className": "bg-yellow-300",
+      "description": "Sets background color to yellow",
+      "origin": "Hywind",
+      "code": "background-color: rgb(255, 223, 32)",
+      "previewColor": {
+        "r": 255,
+        "g": 223,
+        "b": 32
+      }
+    },
+    {
+      "className": "bg-yellow-400",
+      "description": "Sets background color to yellow",
+      "origin": "Hywind",
+      "code": "background-color: rgb(253, 199, 0)",
+      "previewColor": {
+        "r": 253,
+        "g": 199,
+        "b": 0
+      }
+    },
+    {
+      "className": "bg-yellow-500",
+      "description": "Sets background color to yellow",
+      "origin": "Hywind",
+      "code": "background-color: rgb(240, 177, 0)",
+      "previewColor": {
+        "r": 240,
+        "g": 177,
+        "b": 0
+      }
+    },
+    {
+      "className": "bg-yellow-600",
+      "description": "Sets background color to yellow",
+      "origin": "Hywind",
+      "code": "background-color: rgb(208, 135, 0)",
+      "previewColor": {
+        "r": 208,
+        "g": 135,
+        "b": 0
+      }
+    },
+    {
+      "className": "bg-yellow-700",
+      "description": "Sets background color to yellow",
+      "origin": "Hywind",
+      "code": "background-color: rgb(166, 95, 0)",
+      "previewColor": {
+        "r": 166,
+        "g": 95,
+        "b": 0
+      }
+    },
+    {
+      "className": "bg-yellow-800",
+      "description": "Sets background color to yellow",
+      "origin": "Hywind",
+      "code": "background-color: rgb(137, 75, 0)",
+      "previewColor": {
+        "r": 137,
+        "g": 75,
+        "b": 0
+      }
+    },
+    {
+      "className": "bg-yellow-900",
+      "description": "Sets background color to yellow",
+      "origin": "Hywind",
+      "code": "background-color: rgb(115, 62, 10)",
+      "previewColor": {
+        "r": 115,
+        "g": 62,
+        "b": 10
+      }
+    },
+    {
+      "className": "bg-yellow-950",
+      "description": "Sets background color to yellow",
+      "origin": "Hywind",
+      "code": "background-color: rgb(67, 32, 4)",
+      "previewColor": {
+        "r": 67,
+        "g": 32,
+        "b": 4
+      }
+    },
+    {
+      "className": "bg-lime-50",
+      "description": "Sets background color to lime",
+      "origin": "Hywind",
+      "code": "background-color: rgb(247, 254, 231)",
+      "previewColor": {
+        "r": 247,
+        "g": 254,
+        "b": 231
+      }
+    },
+    {
+      "className": "bg-lime-100",
+      "description": "Sets background color to lime",
+      "origin": "Hywind",
+      "code": "background-color: rgb(236, 252, 202)",
+      "previewColor": {
+        "r": 236,
+        "g": 252,
+        "b": 202
+      }
+    },
+    {
+      "className": "bg-lime-200",
+      "description": "Sets background color to lime",
+      "origin": "Hywind",
+      "code": "background-color: rgb(216, 249, 153)",
+      "previewColor": {
+        "r": 216,
+        "g": 249,
+        "b": 153
+      }
+    },
+    {
+      "className": "bg-lime-300",
+      "description": "Sets background color to lime",
+      "origin": "Hywind",
+      "code": "background-color: rgb(187, 244, 81)",
+      "previewColor": {
+        "r": 187,
+        "g": 244,
+        "b": 81
+      }
+    },
+    {
+      "className": "bg-lime-400",
+      "description": "Sets background color to lime",
+      "origin": "Hywind",
+      "code": "background-color: rgb(154, 230, 0)",
+      "previewColor": {
+        "r": 154,
+        "g": 230,
+        "b": 0
+      }
+    },
+    {
+      "className": "bg-lime-500",
+      "description": "Sets background color to lime",
+      "origin": "Hywind",
+      "code": "background-color: rgb(124, 207, 0)",
+      "previewColor": {
+        "r": 124,
+        "g": 207,
+        "b": 0
+      }
+    },
+    {
+      "className": "bg-lime-600",
+      "description": "Sets background color to lime",
+      "origin": "Hywind",
+      "code": "background-color: rgb(94, 165, 0)",
+      "previewColor": {
+        "r": 94,
+        "g": 165,
+        "b": 0
+      }
+    },
+    {
+      "className": "bg-lime-700",
+      "description": "Sets background color to lime",
+      "origin": "Hywind",
+      "code": "background-color: rgb(73, 125, 0)",
+      "previewColor": {
+        "r": 73,
+        "g": 125,
+        "b": 0
+      }
+    },
+    {
+      "className": "bg-lime-800",
+      "description": "Sets background color to lime",
+      "origin": "Hywind",
+      "code": "background-color: rgb(60, 99, 0)",
+      "previewColor": {
+        "r": 60,
+        "g": 99,
+        "b": 0
+      }
+    },
+    {
+      "className": "bg-lime-900",
+      "description": "Sets background color to lime",
+      "origin": "Hywind",
+      "code": "background-color: rgb(53, 83, 14)",
+      "previewColor": {
+        "r": 53,
+        "g": 83,
+        "b": 14
+      }
+    },
+    {
+      "className": "bg-lime-950",
+      "description": "Sets background color to lime",
+      "origin": "Hywind",
+      "code": "background-color: rgb(25, 46, 3)",
+      "previewColor": {
+        "r": 25,
+        "g": 46,
+        "b": 3
+      }
+    },
+    {
+      "className": "bg-green-50",
+      "description": "Sets background color to green",
+      "origin": "Hywind",
+      "code": "background-color: rgb(240, 253, 244)",
+      "previewColor": {
+        "r": 240,
+        "g": 253,
+        "b": 244
+      }
+    },
+    {
+      "className": "bg-green-100",
+      "description": "Sets background color to green",
+      "origin": "Hywind",
+      "code": "background-color: rgb(220, 252, 231)",
+      "previewColor": {
+        "r": 220,
+        "g": 252,
+        "b": 231
+      }
+    },
+    {
+      "className": "bg-green-200",
+      "description": "Sets background color to green",
+      "origin": "Hywind",
+      "code": "background-color: rgb(185, 248, 207)",
+      "previewColor": {
+        "r": 185,
+        "g": 248,
+        "b": 207
+      }
+    },
+    {
+      "className": "bg-green-300",
+      "description": "Sets background color to green",
+      "origin": "Hywind",
+      "code": "background-color: rgb(123, 241, 168)",
+      "previewColor": {
+        "r": 123,
+        "g": 241,
+        "b": 168
+      }
+    },
+    {
+      "className": "bg-green-400",
+      "description": "Sets background color to green",
+      "origin": "Hywind",
+      "code": "background-color: rgb(5, 223, 114)",
+      "previewColor": {
+        "r": 5,
+        "g": 223,
+        "b": 114
+      }
+    },
+    {
+      "className": "bg-green-500",
+      "description": "Sets background color to green",
+      "origin": "Hywind",
+      "code": "background-color: rgb(0, 201, 80)",
+      "previewColor": {
+        "r": 0,
+        "g": 201,
+        "b": 80
+      }
+    },
+    {
+      "className": "bg-green-600",
+      "description": "Sets background color to green",
+      "origin": "Hywind",
+      "code": "background-color: rgb(0, 166, 62)",
+      "previewColor": {
+        "r": 0,
+        "g": 166,
+        "b": 62
+      }
+    },
+    {
+      "className": "bg-green-700",
+      "description": "Sets background color to green",
+      "origin": "Hywind",
+      "code": "background-color: rgb(0, 130, 54)",
+      "previewColor": {
+        "r": 0,
+        "g": 130,
+        "b": 54
+      }
+    },
+    {
+      "className": "bg-green-800",
+      "description": "Sets background color to green",
+      "origin": "Hywind",
+      "code": "background-color: rgb(1, 102, 48)",
+      "previewColor": {
+        "r": 1,
+        "g": 102,
+        "b": 48
+      }
+    },
+    {
+      "className": "bg-green-900",
+      "description": "Sets background color to green",
+      "origin": "Hywind",
+      "code": "background-color: rgb(13, 84, 43)",
+      "previewColor": {
+        "r": 13,
+        "g": 84,
+        "b": 43
+      }
+    },
+    {
+      "className": "bg-green-950",
+      "description": "Sets background color to green",
+      "origin": "Hywind",
+      "code": "background-color: rgb(3, 46, 21)",
+      "previewColor": {
+        "r": 3,
+        "g": 46,
+        "b": 21
+      }
+    },
+    {
+      "className": "bg-emerald-50",
+      "description": "Sets background color to emerald",
+      "origin": "Hywind",
+      "code": "background-color: rgb(236, 253, 245)",
+      "previewColor": {
+        "r": 236,
+        "g": 253,
+        "b": 245
+      }
+    },
+    {
+      "className": "bg-emerald-100",
+      "description": "Sets background color to emerald",
+      "origin": "Hywind",
+      "code": "background-color: rgb(208, 250, 229)",
+      "previewColor": {
+        "r": 208,
+        "g": 250,
+        "b": 229
+      }
+    },
+    {
+      "className": "bg-emerald-200",
+      "description": "Sets background color to emerald",
+      "origin": "Hywind",
+      "code": "background-color: rgb(164, 244, 207)",
+      "previewColor": {
+        "r": 164,
+        "g": 244,
+        "b": 207
+      }
+    },
+    {
+      "className": "bg-emerald-300",
+      "description": "Sets background color to emerald",
+      "origin": "Hywind",
+      "code": "background-color: rgb(94, 233, 181)",
+      "previewColor": {
+        "r": 94,
+        "g": 233,
+        "b": 181
+      }
+    },
+    {
+      "className": "bg-emerald-400",
+      "description": "Sets background color to emerald",
+      "origin": "Hywind",
+      "code": "background-color: rgb(0, 212, 146)",
+      "previewColor": {
+        "r": 0,
+        "g": 212,
+        "b": 146
+      }
+    },
+    {
+      "className": "bg-emerald-500",
+      "description": "Sets background color to emerald",
+      "origin": "Hywind",
+      "code": "background-color: rgb(0, 188, 125)",
+      "previewColor": {
+        "r": 0,
+        "g": 188,
+        "b": 125
+      }
+    },
+    {
+      "className": "bg-emerald-600",
+      "description": "Sets background color to emerald",
+      "origin": "Hywind",
+      "code": "background-color: rgb(0, 153, 102)",
+      "previewColor": {
+        "r": 0,
+        "g": 153,
+        "b": 102
+      }
+    },
+    {
+      "className": "bg-emerald-700",
+      "description": "Sets background color to emerald",
+      "origin": "Hywind",
+      "code": "background-color: rgb(0, 122, 85)",
+      "previewColor": {
+        "r": 0,
+        "g": 122,
+        "b": 85
+      }
+    },
+    {
+      "className": "bg-emerald-800",
+      "description": "Sets background color to emerald",
+      "origin": "Hywind",
+      "code": "background-color: rgb(0, 96, 69)",
+      "previewColor": {
+        "r": 0,
+        "g": 96,
+        "b": 69
+      }
+    },
+    {
+      "className": "bg-emerald-900",
+      "description": "Sets background color to emerald",
+      "origin": "Hywind",
+      "code": "background-color: rgb(0, 79, 59)",
+      "previewColor": {
+        "r": 0,
+        "g": 79,
+        "b": 59
+      }
+    },
+    {
+      "className": "bg-emerald-950",
+      "description": "Sets background color to emerald",
+      "origin": "Hywind",
+      "code": "background-color: rgb(0, 44, 34)",
+      "previewColor": {
+        "r": 0,
+        "g": 44,
+        "b": 34
+      }
+    },
+    {
+      "className": "bg-teal-50",
+      "description": "Sets background color to teal",
+      "origin": "Hywind",
+      "code": "background-color: rgb(240, 253, 250)",
+      "previewColor": {
+        "r": 240,
+        "g": 253,
+        "b": 250
+      }
+    },
+    {
+      "className": "bg-teal-100",
+      "description": "Sets background color to teal",
+      "origin": "Hywind",
+      "code": "background-color: rgb(203, 251, 241)",
+      "previewColor": {
+        "r": 203,
+        "g": 251,
+        "b": 241
+      }
+    },
+    {
+      "className": "bg-teal-200",
+      "description": "Sets background color to teal",
+      "origin": "Hywind",
+      "code": "background-color: rgb(150, 247, 228)",
+      "previewColor": {
+        "r": 150,
+        "g": 247,
+        "b": 228
+      }
+    },
+    {
+      "className": "bg-teal-300",
+      "description": "Sets background color to teal",
+      "origin": "Hywind",
+      "code": "background-color: rgb(70, 236, 213)",
+      "previewColor": {
+        "r": 70,
+        "g": 236,
+        "b": 213
+      }
+    },
+    {
+      "className": "bg-teal-400",
+      "description": "Sets background color to teal",
+      "origin": "Hywind",
+      "code": "background-color: rgb(0, 213, 190)",
+      "previewColor": {
+        "r": 0,
+        "g": 213,
+        "b": 190
+      }
+    },
+    {
+      "className": "bg-teal-500",
+      "description": "Sets background color to teal",
+      "origin": "Hywind",
+      "code": "background-color: rgb(0, 187, 167)",
+      "previewColor": {
+        "r": 0,
+        "g": 187,
+        "b": 167
+      }
+    },
+    {
+      "className": "bg-teal-600",
+      "description": "Sets background color to teal",
+      "origin": "Hywind",
+      "code": "background-color: rgb(0, 150, 137)",
+      "previewColor": {
+        "r": 0,
+        "g": 150,
+        "b": 137
+      }
+    },
+    {
+      "className": "bg-teal-700",
+      "description": "Sets background color to teal",
+      "origin": "Hywind",
+      "code": "background-color: rgb(0, 120, 111)",
+      "previewColor": {
+        "r": 0,
+        "g": 120,
+        "b": 111
+      }
+    },
+    {
+      "className": "bg-teal-800",
+      "description": "Sets background color to teal",
+      "origin": "Hywind",
+      "code": "background-color: rgb(0, 95, 90)",
+      "previewColor": {
+        "r": 0,
+        "g": 95,
+        "b": 90
+      }
+    },
+    {
+      "className": "bg-teal-900",
+      "description": "Sets background color to teal",
+      "origin": "Hywind",
+      "code": "background-color: rgb(11, 79, 74)",
+      "previewColor": {
+        "r": 11,
+        "g": 79,
+        "b": 74
+      }
+    },
+    {
+      "className": "bg-teal-950",
+      "description": "Sets background color to teal",
+      "origin": "Hywind",
+      "code": "background-color: rgb(2, 47, 46)",
+      "previewColor": {
+        "r": 2,
+        "g": 47,
+        "b": 46
+      }
+    },
+    {
+      "className": "bg-cyan-50",
+      "description": "Sets background color to cyan",
+      "origin": "Hywind",
+      "code": "background-color: rgb(236, 254, 255)",
+      "previewColor": {
+        "r": 236,
+        "g": 254,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-cyan-100",
+      "description": "Sets background color to cyan",
+      "origin": "Hywind",
+      "code": "background-color: rgb(206, 250, 254)",
+      "previewColor": {
+        "r": 206,
+        "g": 250,
+        "b": 254
+      }
+    },
+    {
+      "className": "bg-cyan-200",
+      "description": "Sets background color to cyan",
+      "origin": "Hywind",
+      "code": "background-color: rgb(162, 244, 253)",
+      "previewColor": {
+        "r": 162,
+        "g": 244,
+        "b": 253
+      }
+    },
+    {
+      "className": "bg-cyan-300",
+      "description": "Sets background color to cyan",
+      "origin": "Hywind",
+      "code": "background-color: rgb(83, 234, 253)",
+      "previewColor": {
+        "r": 83,
+        "g": 234,
+        "b": 253
+      }
+    },
+    {
+      "className": "bg-cyan-400",
+      "description": "Sets background color to cyan",
+      "origin": "Hywind",
+      "code": "background-color: rgb(0, 211, 242)",
+      "previewColor": {
+        "r": 0,
+        "g": 211,
+        "b": 242
+      }
+    },
+    {
+      "className": "bg-cyan-500",
+      "description": "Sets background color to cyan",
+      "origin": "Hywind",
+      "code": "background-color: rgb(0, 184, 219)",
+      "previewColor": {
+        "r": 0,
+        "g": 184,
+        "b": 219
+      }
+    },
+    {
+      "className": "bg-cyan-600",
+      "description": "Sets background color to cyan",
+      "origin": "Hywind",
+      "code": "background-color: rgb(0, 146, 184)",
+      "previewColor": {
+        "r": 0,
+        "g": 146,
+        "b": 184
+      }
+    },
+    {
+      "className": "bg-cyan-700",
+      "description": "Sets background color to cyan",
+      "origin": "Hywind",
+      "code": "background-color: rgb(0, 117, 149)",
+      "previewColor": {
+        "r": 0,
+        "g": 117,
+        "b": 149
+      }
+    },
+    {
+      "className": "bg-cyan-800",
+      "description": "Sets background color to cyan",
+      "origin": "Hywind",
+      "code": "background-color: rgb(0, 95, 120)",
+      "previewColor": {
+        "r": 0,
+        "g": 95,
+        "b": 120
+      }
+    },
+    {
+      "className": "bg-cyan-900",
+      "description": "Sets background color to cyan",
+      "origin": "Hywind",
+      "code": "background-color: rgb(16, 78, 100)",
+      "previewColor": {
+        "r": 16,
+        "g": 78,
+        "b": 100
+      }
+    },
+    {
+      "className": "bg-cyan-950",
+      "description": "Sets background color to cyan",
+      "origin": "Hywind",
+      "code": "background-color: rgb(5, 51, 69)",
+      "previewColor": {
+        "r": 5,
+        "g": 51,
+        "b": 69
+      }
+    },
+    {
+      "className": "bg-sky-50",
+      "description": "Sets background color to sky",
+      "origin": "Hywind",
+      "code": "background-color: rgb(240, 249, 255)",
+      "previewColor": {
+        "r": 240,
+        "g": 249,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-sky-100",
+      "description": "Sets background color to sky",
+      "origin": "Hywind",
+      "code": "background-color: rgb(223, 242, 254)",
+      "previewColor": {
+        "r": 223,
+        "g": 242,
+        "b": 254
+      }
+    },
+    {
+      "className": "bg-sky-200",
+      "description": "Sets background color to sky",
+      "origin": "Hywind",
+      "code": "background-color: rgb(184, 230, 254)",
+      "previewColor": {
+        "r": 184,
+        "g": 230,
+        "b": 254
+      }
+    },
+    {
+      "className": "bg-sky-300",
+      "description": "Sets background color to sky",
+      "origin": "Hywind",
+      "code": "background-color: rgb(116, 212, 255)",
+      "previewColor": {
+        "r": 116,
+        "g": 212,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-sky-400",
+      "description": "Sets background color to sky",
+      "origin": "Hywind",
+      "code": "background-color: rgb(0, 188, 255)",
+      "previewColor": {
+        "r": 0,
+        "g": 188,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-sky-500",
+      "description": "Sets background color to sky",
+      "origin": "Hywind",
+      "code": "background-color: rgb(0, 166, 244)",
+      "previewColor": {
+        "r": 0,
+        "g": 166,
+        "b": 244
+      }
+    },
+    {
+      "className": "bg-sky-600",
+      "description": "Sets background color to sky",
+      "origin": "Hywind",
+      "code": "background-color: rgb(0, 132, 209)",
+      "previewColor": {
+        "r": 0,
+        "g": 132,
+        "b": 209
+      }
+    },
+    {
+      "className": "bg-sky-700",
+      "description": "Sets background color to sky",
+      "origin": "Hywind",
+      "code": "background-color: rgb(0, 105, 168)",
+      "previewColor": {
+        "r": 0,
+        "g": 105,
+        "b": 168
+      }
+    },
+    {
+      "className": "bg-sky-800",
+      "description": "Sets background color to sky",
+      "origin": "Hywind",
+      "code": "background-color: rgb(0, 89, 138)",
+      "previewColor": {
+        "r": 0,
+        "g": 89,
+        "b": 138
+      }
+    },
+    {
+      "className": "bg-sky-900",
+      "description": "Sets background color to sky",
+      "origin": "Hywind",
+      "code": "background-color: rgb(2, 74, 112)",
+      "previewColor": {
+        "r": 2,
+        "g": 74,
+        "b": 112
+      }
+    },
+    {
+      "className": "bg-sky-950",
+      "description": "Sets background color to sky",
+      "origin": "Hywind",
+      "code": "background-color: rgb(5, 47, 74)",
+      "previewColor": {
+        "r": 5,
+        "g": 47,
+        "b": 74
+      }
+    },
+    {
+      "className": "bg-blue-50",
+      "description": "Sets background color to blue",
+      "origin": "Hywind",
+      "code": "background-color: rgb(239, 246, 255)",
+      "previewColor": {
+        "r": 239,
+        "g": 246,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-blue-100",
+      "description": "Sets background color to blue",
+      "origin": "Hywind",
+      "code": "background-color: rgb(219, 234, 254)",
+      "previewColor": {
+        "r": 219,
+        "g": 234,
+        "b": 254
+      }
+    },
+    {
+      "className": "bg-blue-200",
+      "description": "Sets background color to blue",
+      "origin": "Hywind",
+      "code": "background-color: rgb(190, 219, 255)",
+      "previewColor": {
+        "r": 190,
+        "g": 219,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-blue-300",
+      "description": "Sets background color to blue",
+      "origin": "Hywind",
+      "code": "background-color: rgb(142, 197, 255)",
+      "previewColor": {
+        "r": 142,
+        "g": 197,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-blue-400",
+      "description": "Sets background color to blue",
+      "origin": "Hywind",
+      "code": "background-color: rgb(81, 162, 255)",
+      "previewColor": {
+        "r": 81,
+        "g": 162,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-blue-500",
+      "description": "Sets background color to blue",
+      "origin": "Hywind",
+      "code": "background-color: rgb(43, 127, 255)",
+      "previewColor": {
+        "r": 43,
+        "g": 127,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-blue-600",
+      "description": "Sets background color to blue",
+      "origin": "Hywind",
+      "code": "background-color: rgb(21, 93, 252)",
+      "previewColor": {
+        "r": 21,
+        "g": 93,
+        "b": 252
+      }
+    },
+    {
+      "className": "bg-blue-700",
+      "description": "Sets background color to blue",
+      "origin": "Hywind",
+      "code": "background-color: rgb(20, 71, 230)",
+      "previewColor": {
+        "r": 20,
+        "g": 71,
+        "b": 230
+      }
+    },
+    {
+      "className": "bg-blue-800",
+      "description": "Sets background color to blue",
+      "origin": "Hywind",
+      "code": "background-color: rgb(25, 60, 184)",
+      "previewColor": {
+        "r": 25,
+        "g": 60,
+        "b": 184
+      }
+    },
+    {
+      "className": "bg-blue-900",
+      "description": "Sets background color to blue",
+      "origin": "Hywind",
+      "code": "background-color: rgb(28, 57, 142)",
+      "previewColor": {
+        "r": 28,
+        "g": 57,
+        "b": 142
+      }
+    },
+    {
+      "className": "bg-blue-950",
+      "description": "Sets background color to blue",
+      "origin": "Hywind",
+      "code": "background-color: rgb(22, 36, 86)",
+      "previewColor": {
+        "r": 22,
+        "g": 36,
+        "b": 86
+      }
+    },
+    {
+      "className": "bg-indigo-50",
+      "description": "Sets background color to indigo",
+      "origin": "Hywind",
+      "code": "background-color: rgb(238, 242, 255)",
+      "previewColor": {
+        "r": 238,
+        "g": 242,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-indigo-100",
+      "description": "Sets background color to indigo",
+      "origin": "Hywind",
+      "code": "background-color: rgb(224, 231, 255)",
+      "previewColor": {
+        "r": 224,
+        "g": 231,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-indigo-200",
+      "description": "Sets background color to indigo",
+      "origin": "Hywind",
+      "code": "background-color: rgb(198, 210, 255)",
+      "previewColor": {
+        "r": 198,
+        "g": 210,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-indigo-300",
+      "description": "Sets background color to indigo",
+      "origin": "Hywind",
+      "code": "background-color: rgb(163, 179, 255)",
+      "previewColor": {
+        "r": 163,
+        "g": 179,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-indigo-400",
+      "description": "Sets background color to indigo",
+      "origin": "Hywind",
+      "code": "background-color: rgb(124, 134, 255)",
+      "previewColor": {
+        "r": 124,
+        "g": 134,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-indigo-500",
+      "description": "Sets background color to indigo",
+      "origin": "Hywind",
+      "code": "background-color: rgb(97, 95, 255)",
+      "previewColor": {
+        "r": 97,
+        "g": 95,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-indigo-600",
+      "description": "Sets background color to indigo",
+      "origin": "Hywind",
+      "code": "background-color: rgb(79, 57, 246)",
+      "previewColor": {
+        "r": 79,
+        "g": 57,
+        "b": 246
+      }
+    },
+    {
+      "className": "bg-indigo-700",
+      "description": "Sets background color to indigo",
+      "origin": "Hywind",
+      "code": "background-color: rgb(67, 45, 215)",
+      "previewColor": {
+        "r": 67,
+        "g": 45,
+        "b": 215
+      }
+    },
+    {
+      "className": "bg-indigo-800",
+      "description": "Sets background color to indigo",
+      "origin": "Hywind",
+      "code": "background-color: rgb(55, 42, 172)",
+      "previewColor": {
+        "r": 55,
+        "g": 42,
+        "b": 172
+      }
+    },
+    {
+      "className": "bg-indigo-900",
+      "description": "Sets background color to indigo",
+      "origin": "Hywind",
+      "code": "background-color: rgb(49, 44, 133)",
+      "previewColor": {
+        "r": 49,
+        "g": 44,
+        "b": 133
+      }
+    },
+    {
+      "className": "bg-indigo-950",
+      "description": "Sets background color to indigo",
+      "origin": "Hywind",
+      "code": "background-color: rgb(30, 26, 77)",
+      "previewColor": {
+        "r": 30,
+        "g": 26,
+        "b": 77
+      }
+    },
+    {
+      "className": "bg-violet-50",
+      "description": "Sets background color to violet",
+      "origin": "Hywind",
+      "code": "background-color: rgb(245, 243, 255)",
+      "previewColor": {
+        "r": 245,
+        "g": 243,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-violet-100",
+      "description": "Sets background color to violet",
+      "origin": "Hywind",
+      "code": "background-color: rgb(237, 233, 254)",
+      "previewColor": {
+        "r": 237,
+        "g": 233,
+        "b": 254
+      }
+    },
+    {
+      "className": "bg-violet-200",
+      "description": "Sets background color to violet",
+      "origin": "Hywind",
+      "code": "background-color: rgb(221, 214, 255)",
+      "previewColor": {
+        "r": 221,
+        "g": 214,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-violet-300",
+      "description": "Sets background color to violet",
+      "origin": "Hywind",
+      "code": "background-color: rgb(196, 180, 255)",
+      "previewColor": {
+        "r": 196,
+        "g": 180,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-violet-400",
+      "description": "Sets background color to violet",
+      "origin": "Hywind",
+      "code": "background-color: rgb(166, 132, 255)",
+      "previewColor": {
+        "r": 166,
+        "g": 132,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-violet-500",
+      "description": "Sets background color to violet",
+      "origin": "Hywind",
+      "code": "background-color: rgb(142, 81, 255)",
+      "previewColor": {
+        "r": 142,
+        "g": 81,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-violet-600",
+      "description": "Sets background color to violet",
+      "origin": "Hywind",
+      "code": "background-color: rgb(127, 34, 254)",
+      "previewColor": {
+        "r": 127,
+        "g": 34,
+        "b": 254
+      }
+    },
+    {
+      "className": "bg-violet-700",
+      "description": "Sets background color to violet",
+      "origin": "Hywind",
+      "code": "background-color: rgb(112, 8, 231)",
+      "previewColor": {
+        "r": 112,
+        "g": 8,
+        "b": 231
+      }
+    },
+    {
+      "className": "bg-violet-800",
+      "description": "Sets background color to violet",
+      "origin": "Hywind",
+      "code": "background-color: rgb(93, 14, 192)",
+      "previewColor": {
+        "r": 93,
+        "g": 14,
+        "b": 192
+      }
+    },
+    {
+      "className": "bg-violet-900",
+      "description": "Sets background color to violet",
+      "origin": "Hywind",
+      "code": "background-color: rgb(77, 23, 154)",
+      "previewColor": {
+        "r": 77,
+        "g": 23,
+        "b": 154
+      }
+    },
+    {
+      "className": "bg-violet-950",
+      "description": "Sets background color to violet",
+      "origin": "Hywind",
+      "code": "background-color: rgb(47, 13, 104)",
+      "previewColor": {
+        "r": 47,
+        "g": 13,
+        "b": 104
+      }
+    },
+    {
+      "className": "bg-purple-50",
+      "description": "Sets background color to purple",
+      "origin": "Hywind",
+      "code": "background-color: rgb(250, 245, 255)",
+      "previewColor": {
+        "r": 250,
+        "g": 245,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-purple-100",
+      "description": "Sets background color to purple",
+      "origin": "Hywind",
+      "code": "background-color: rgb(243, 232, 255)",
+      "previewColor": {
+        "r": 243,
+        "g": 232,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-purple-200",
+      "description": "Sets background color to purple",
+      "origin": "Hywind",
+      "code": "background-color: rgb(233, 212, 255)",
+      "previewColor": {
+        "r": 233,
+        "g": 212,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-purple-300",
+      "description": "Sets background color to purple",
+      "origin": "Hywind",
+      "code": "background-color: rgb(218, 178, 255)",
+      "previewColor": {
+        "r": 218,
+        "g": 178,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-purple-400",
+      "description": "Sets background color to purple",
+      "origin": "Hywind",
+      "code": "background-color: rgb(194, 122, 255)",
+      "previewColor": {
+        "r": 194,
+        "g": 122,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-purple-500",
+      "description": "Sets background color to purple",
+      "origin": "Hywind",
+      "code": "background-color: rgb(173, 70, 255)",
+      "previewColor": {
+        "r": 173,
+        "g": 70,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-purple-600",
+      "description": "Sets background color to purple",
+      "origin": "Hywind",
+      "code": "background-color: rgb(152, 16, 250)",
+      "previewColor": {
+        "r": 152,
+        "g": 16,
+        "b": 250
+      }
+    },
+    {
+      "className": "bg-purple-700",
+      "description": "Sets background color to purple",
+      "origin": "Hywind",
+      "code": "background-color: rgb(130, 0, 219)",
+      "previewColor": {
+        "r": 130,
+        "g": 0,
+        "b": 219
+      }
+    },
+    {
+      "className": "bg-purple-800",
+      "description": "Sets background color to purple",
+      "origin": "Hywind",
+      "code": "background-color: rgb(110, 17, 176)",
+      "previewColor": {
+        "r": 110,
+        "g": 17,
+        "b": 176
+      }
+    },
+    {
+      "className": "bg-purple-900",
+      "description": "Sets background color to purple",
+      "origin": "Hywind",
+      "code": "background-color: rgb(89, 22, 139)",
+      "previewColor": {
+        "r": 89,
+        "g": 22,
+        "b": 139
+      }
+    },
+    {
+      "className": "bg-purple-950",
+      "description": "Sets background color to purple",
+      "origin": "Hywind",
+      "code": "background-color: rgb(60, 3, 102)",
+      "previewColor": {
+        "r": 60,
+        "g": 3,
+        "b": 102
+      }
+    },
+    {
+      "className": "bg-fuchsia-50",
+      "description": "Sets background color to fuchsia",
+      "origin": "Hywind",
+      "code": "background-color: rgb(253, 244, 255)",
+      "previewColor": {
+        "r": 253,
+        "g": 244,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-fuchsia-100",
+      "description": "Sets background color to fuchsia",
+      "origin": "Hywind",
+      "code": "background-color: rgb(250, 232, 255)",
+      "previewColor": {
+        "r": 250,
+        "g": 232,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-fuchsia-200",
+      "description": "Sets background color to fuchsia",
+      "origin": "Hywind",
+      "code": "background-color: rgb(246, 207, 255)",
+      "previewColor": {
+        "r": 246,
+        "g": 207,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-fuchsia-300",
+      "description": "Sets background color to fuchsia",
+      "origin": "Hywind",
+      "code": "background-color: rgb(244, 168, 255)",
+      "previewColor": {
+        "r": 244,
+        "g": 168,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-fuchsia-400",
+      "description": "Sets background color to fuchsia",
+      "origin": "Hywind",
+      "code": "background-color: rgb(237, 106, 255)",
+      "previewColor": {
+        "r": 237,
+        "g": 106,
+        "b": 255
+      }
+    },
+    {
+      "className": "bg-fuchsia-500",
+      "description": "Sets background color to fuchsia",
+      "origin": "Hywind",
+      "code": "background-color: rgb(225, 42, 251)",
+      "previewColor": {
+        "r": 225,
+        "g": 42,
+        "b": 251
+      }
+    },
+    {
+      "className": "bg-fuchsia-600",
+      "description": "Sets background color to fuchsia",
+      "origin": "Hywind",
+      "code": "background-color: rgb(200, 0, 222)",
+      "previewColor": {
+        "r": 200,
+        "g": 0,
+        "b": 222
+      }
+    },
+    {
+      "className": "bg-fuchsia-700",
+      "description": "Sets background color to fuchsia",
+      "origin": "Hywind",
+      "code": "background-color: rgb(168, 0, 183)",
+      "previewColor": {
+        "r": 168,
+        "g": 0,
+        "b": 183
+      }
+    },
+    {
+      "className": "bg-fuchsia-800",
+      "description": "Sets background color to fuchsia",
+      "origin": "Hywind",
+      "code": "background-color: rgb(138, 1, 148)",
+      "previewColor": {
+        "r": 138,
+        "g": 1,
+        "b": 148
+      }
+    },
+    {
+      "className": "bg-fuchsia-900",
+      "description": "Sets background color to fuchsia",
+      "origin": "Hywind",
+      "code": "background-color: rgb(114, 19, 120)",
+      "previewColor": {
+        "r": 114,
+        "g": 19,
+        "b": 120
+      }
+    },
+    {
+      "className": "bg-fuchsia-950",
+      "description": "Sets background color to fuchsia",
+      "origin": "Hywind",
+      "code": "background-color: rgb(75, 0, 79)",
+      "previewColor": {
+        "r": 75,
+        "g": 0,
+        "b": 79
+      }
+    },
+    {
+      "className": "bg-pink-50",
+      "description": "Sets background color to pink",
+      "origin": "Hywind",
+      "code": "background-color: rgb(253, 242, 248)",
+      "previewColor": {
+        "r": 253,
+        "g": 242,
+        "b": 248
+      }
+    },
+    {
+      "className": "bg-pink-100",
+      "description": "Sets background color to pink",
+      "origin": "Hywind",
+      "code": "background-color: rgb(252, 231, 243)",
+      "previewColor": {
+        "r": 252,
+        "g": 231,
+        "b": 243
+      }
+    },
+    {
+      "className": "bg-pink-200",
+      "description": "Sets background color to pink",
+      "origin": "Hywind",
+      "code": "background-color: rgb(252, 206, 232)",
+      "previewColor": {
+        "r": 252,
+        "g": 206,
+        "b": 232
+      }
+    },
+    {
+      "className": "bg-pink-300",
+      "description": "Sets background color to pink",
+      "origin": "Hywind",
+      "code": "background-color: rgb(253, 165, 213)",
+      "previewColor": {
+        "r": 253,
+        "g": 165,
+        "b": 213
+      }
+    },
+    {
+      "className": "bg-pink-400",
+      "description": "Sets background color to pink",
+      "origin": "Hywind",
+      "code": "background-color: rgb(251, 100, 182)",
+      "previewColor": {
+        "r": 251,
+        "g": 100,
+        "b": 182
+      }
+    },
+    {
+      "className": "bg-pink-500",
+      "description": "Sets background color to pink",
+      "origin": "Hywind",
+      "code": "background-color: rgb(246, 51, 154)",
+      "previewColor": {
+        "r": 246,
+        "g": 51,
+        "b": 154
+      }
+    },
+    {
+      "className": "bg-pink-600",
+      "description": "Sets background color to pink",
+      "origin": "Hywind",
+      "code": "background-color: rgb(230, 0, 118)",
+      "previewColor": {
+        "r": 230,
+        "g": 0,
+        "b": 118
+      }
+    },
+    {
+      "className": "bg-pink-700",
+      "description": "Sets background color to pink",
+      "origin": "Hywind",
+      "code": "background-color: rgb(198, 0, 92)",
+      "previewColor": {
+        "r": 198,
+        "g": 0,
+        "b": 92
+      }
+    },
+    {
+      "className": "bg-pink-800",
+      "description": "Sets background color to pink",
+      "origin": "Hywind",
+      "code": "background-color: rgb(163, 0, 76)",
+      "previewColor": {
+        "r": 163,
+        "g": 0,
+        "b": 76
+      }
+    },
+    {
+      "className": "bg-pink-900",
+      "description": "Sets background color to pink",
+      "origin": "Hywind",
+      "code": "background-color: rgb(134, 16, 67)",
+      "previewColor": {
+        "r": 134,
+        "g": 16,
+        "b": 67
+      }
+    },
+    {
+      "className": "bg-pink-950",
+      "description": "Sets background color to pink",
+      "origin": "Hywind",
+      "code": "background-color: rgb(81, 4, 36)",
+      "previewColor": {
+        "r": 81,
+        "g": 4,
+        "b": 36
+      }
+    },
+    {
+      "className": "bg-rose-50",
+      "description": "Sets background color to rose",
+      "origin": "Hywind",
+      "code": "background-color: rgb(255, 241, 242)",
+      "previewColor": {
+        "r": 255,
+        "g": 241,
+        "b": 242
+      }
+    },
+    {
+      "className": "bg-rose-100",
+      "description": "Sets background color to rose",
+      "origin": "Hywind",
+      "code": "background-color: rgb(255, 228, 230)",
+      "previewColor": {
+        "r": 255,
+        "g": 228,
+        "b": 230
+      }
+    },
+    {
+      "className": "bg-rose-200",
+      "description": "Sets background color to rose",
+      "origin": "Hywind",
+      "code": "background-color: rgb(255, 204, 211)",
+      "previewColor": {
+        "r": 255,
+        "g": 204,
+        "b": 211
+      }
+    },
+    {
+      "className": "bg-rose-300",
+      "description": "Sets background color to rose",
+      "origin": "Hywind",
+      "code": "background-color: rgb(255, 161, 173)",
+      "previewColor": {
+        "r": 255,
+        "g": 161,
+        "b": 173
+      }
+    },
+    {
+      "className": "bg-rose-400",
+      "description": "Sets background color to rose",
+      "origin": "Hywind",
+      "code": "background-color: rgb(255, 99, 126)",
+      "previewColor": {
+        "r": 255,
+        "g": 99,
+        "b": 126
+      }
+    },
+    {
+      "className": "bg-rose-500",
+      "description": "Sets background color to rose",
+      "origin": "Hywind",
+      "code": "background-color: rgb(255, 32, 86)",
+      "previewColor": {
+        "r": 255,
+        "g": 32,
+        "b": 86
+      }
+    },
+    {
+      "className": "bg-rose-600",
+      "description": "Sets background color to rose",
+      "origin": "Hywind",
+      "code": "background-color: rgb(236, 0, 63)",
+      "previewColor": {
+        "r": 236,
+        "g": 0,
+        "b": 63
+      }
+    },
+    {
+      "className": "bg-rose-700",
+      "description": "Sets background color to rose",
+      "origin": "Hywind",
+      "code": "background-color: rgb(199, 0, 54)",
+      "previewColor": {
+        "r": 199,
+        "g": 0,
+        "b": 54
+      }
+    },
+    {
+      "className": "bg-rose-800",
+      "description": "Sets background color to rose",
+      "origin": "Hywind",
+      "code": "background-color: rgb(165, 0, 54)",
+      "previewColor": {
+        "r": 165,
+        "g": 0,
+        "b": 54
+      }
+    },
+    {
+      "className": "bg-rose-900",
+      "description": "Sets background color to rose",
+      "origin": "Hywind",
+      "code": "background-color: rgb(139, 8, 54)",
+      "previewColor": {
+        "r": 139,
+        "g": 8,
+        "b": 54
+      }
+    },
+    {
+      "className": "bg-rose-950",
+      "description": "Sets background color to rose",
+      "origin": "Hywind",
+      "code": "background-color: rgb(77, 2, 24)",
+      "previewColor": {
+        "r": 77,
+        "g": 2,
+        "b": 24
+      }
+    },
+    {
+      "className": "text-slate-50",
+      "description": "Sets text color to slate",
+      "origin": "Hywind",
+      "code": "color: rgb(248, 250, 252)",
+      "previewColor": {
+        "r": 248,
+        "g": 250,
+        "b": 252
+      }
+    },
+    {
+      "className": "text-slate-100",
+      "description": "Sets text color to slate",
+      "origin": "Hywind",
+      "code": "color: rgb(241, 245, 249)",
+      "previewColor": {
+        "r": 241,
+        "g": 245,
+        "b": 249
+      }
+    },
+    {
+      "className": "text-slate-200",
+      "description": "Sets text color to slate",
+      "origin": "Hywind",
+      "code": "color: rgb(226, 232, 240)",
+      "previewColor": {
+        "r": 226,
+        "g": 232,
+        "b": 240
+      }
+    },
+    {
+      "className": "text-slate-300",
+      "description": "Sets text color to slate",
+      "origin": "Hywind",
+      "code": "color: rgb(202, 213, 226)",
+      "previewColor": {
+        "r": 202,
+        "g": 213,
+        "b": 226
+      }
+    },
+    {
+      "className": "text-slate-400",
+      "description": "Sets text color to slate",
+      "origin": "Hywind",
+      "code": "color: rgb(144, 161, 185)",
+      "previewColor": {
+        "r": 144,
+        "g": 161,
+        "b": 185
+      }
+    },
+    {
+      "className": "text-slate-500",
+      "description": "Sets text color to slate",
+      "origin": "Hywind",
+      "code": "color: rgb(98, 116, 142)",
+      "previewColor": {
+        "r": 98,
+        "g": 116,
+        "b": 142
+      }
+    },
+    {
+      "className": "text-slate-600",
+      "description": "Sets text color to slate",
+      "origin": "Hywind",
+      "code": "color: rgb(69, 85, 108)",
+      "previewColor": {
+        "r": 69,
+        "g": 85,
+        "b": 108
+      }
+    },
+    {
+      "className": "text-slate-700",
+      "description": "Sets text color to slate",
+      "origin": "Hywind",
+      "code": "color: rgb(49, 65, 88)",
+      "previewColor": {
+        "r": 49,
+        "g": 65,
+        "b": 88
+      }
+    },
+    {
+      "className": "text-slate-800",
+      "description": "Sets text color to slate",
+      "origin": "Hywind",
+      "code": "color: rgb(29, 41, 61)",
+      "previewColor": {
+        "r": 29,
+        "g": 41,
+        "b": 61
+      }
+    },
+    {
+      "className": "text-slate-900",
+      "description": "Sets text color to slate",
+      "origin": "Hywind",
+      "code": "color: rgb(15, 23, 43)",
+      "previewColor": {
+        "r": 15,
+        "g": 23,
+        "b": 43
+      }
+    },
+    {
+      "className": "text-slate-950",
+      "description": "Sets text color to slate",
+      "origin": "Hywind",
+      "code": "color: rgb(2, 6, 24)",
+      "previewColor": {
+        "r": 2,
+        "g": 6,
+        "b": 24
+      }
+    },
+    {
+      "className": "text-gray-50",
+      "description": "Sets text color to gray",
+      "origin": "Hywind",
+      "code": "color: rgb(249, 250, 251)",
+      "previewColor": {
+        "r": 249,
+        "g": 250,
+        "b": 251
+      }
+    },
+    {
+      "className": "text-gray-100",
+      "description": "Sets text color to gray",
+      "origin": "Hywind",
+      "code": "color: rgb(243, 244, 246)",
+      "previewColor": {
+        "r": 243,
+        "g": 244,
+        "b": 246
+      }
+    },
+    {
+      "className": "text-gray-200",
+      "description": "Sets text color to gray",
+      "origin": "Hywind",
+      "code": "color: rgb(229, 231, 235)",
+      "previewColor": {
+        "r": 229,
+        "g": 231,
+        "b": 235
+      }
+    },
+    {
+      "className": "text-gray-300",
+      "description": "Sets text color to gray",
+      "origin": "Hywind",
+      "code": "color: rgb(209, 213, 220)",
+      "previewColor": {
+        "r": 209,
+        "g": 213,
+        "b": 220
+      }
+    },
+    {
+      "className": "text-gray-400",
+      "description": "Sets text color to gray",
+      "origin": "Hywind",
+      "code": "color: rgb(153, 161, 175)",
+      "previewColor": {
+        "r": 153,
+        "g": 161,
+        "b": 175
+      }
+    },
+    {
+      "className": "text-gray-500",
+      "description": "Sets text color to gray",
+      "origin": "Hywind",
+      "code": "color: rgb(106, 114, 130)",
+      "previewColor": {
+        "r": 106,
+        "g": 114,
+        "b": 130
+      }
+    },
+    {
+      "className": "text-gray-600",
+      "description": "Sets text color to gray",
+      "origin": "Hywind",
+      "code": "color: rgb(74, 85, 101)",
+      "previewColor": {
+        "r": 74,
+        "g": 85,
+        "b": 101
+      }
+    },
+    {
+      "className": "text-gray-700",
+      "description": "Sets text color to gray",
+      "origin": "Hywind",
+      "code": "color: rgb(54, 65, 83)",
+      "previewColor": {
+        "r": 54,
+        "g": 65,
+        "b": 83
+      }
+    },
+    {
+      "className": "text-gray-800",
+      "description": "Sets text color to gray",
+      "origin": "Hywind",
+      "code": "color: rgb(30, 41, 57)",
+      "previewColor": {
+        "r": 30,
+        "g": 41,
+        "b": 57
+      }
+    },
+    {
+      "className": "text-gray-900",
+      "description": "Sets text color to gray",
+      "origin": "Hywind",
+      "code": "color: rgb(16, 24, 40)",
+      "previewColor": {
+        "r": 16,
+        "g": 24,
+        "b": 40
+      }
+    },
+    {
+      "className": "text-gray-950",
+      "description": "Sets text color to gray",
+      "origin": "Hywind",
+      "code": "color: rgb(3, 7, 18)",
+      "previewColor": {
+        "r": 3,
+        "g": 7,
+        "b": 18
+      }
+    },
+    {
+      "className": "text-zinc-50",
+      "description": "Sets text color to zinc",
+      "origin": "Hywind",
+      "code": "color: rgb(250, 250, 250)",
+      "previewColor": {
+        "r": 250,
+        "g": 250,
+        "b": 250
+      }
+    },
+    {
+      "className": "text-zinc-100",
+      "description": "Sets text color to zinc",
+      "origin": "Hywind",
+      "code": "color: rgb(244, 244, 245)",
+      "previewColor": {
+        "r": 244,
+        "g": 244,
+        "b": 245
+      }
+    },
+    {
+      "className": "text-zinc-200",
+      "description": "Sets text color to zinc",
+      "origin": "Hywind",
+      "code": "color: rgb(228, 228, 231)",
+      "previewColor": {
+        "r": 228,
+        "g": 228,
+        "b": 231
+      }
+    },
+    {
+      "className": "text-zinc-300",
+      "description": "Sets text color to zinc",
+      "origin": "Hywind",
+      "code": "color: rgb(212, 212, 216)",
+      "previewColor": {
+        "r": 212,
+        "g": 212,
+        "b": 216
+      }
+    },
+    {
+      "className": "text-zinc-400",
+      "description": "Sets text color to zinc",
+      "origin": "Hywind",
+      "code": "color: rgb(159, 159, 169)",
+      "previewColor": {
+        "r": 159,
+        "g": 159,
+        "b": 169
+      }
+    },
+    {
+      "className": "text-zinc-500",
+      "description": "Sets text color to zinc",
+      "origin": "Hywind",
+      "code": "color: rgb(113, 113, 123)",
+      "previewColor": {
+        "r": 113,
+        "g": 113,
+        "b": 123
+      }
+    },
+    {
+      "className": "text-zinc-600",
+      "description": "Sets text color to zinc",
+      "origin": "Hywind",
+      "code": "color: rgb(82, 82, 92)",
+      "previewColor": {
+        "r": 82,
+        "g": 82,
+        "b": 92
+      }
+    },
+    {
+      "className": "text-zinc-700",
+      "description": "Sets text color to zinc",
+      "origin": "Hywind",
+      "code": "color: rgb(63, 63, 70)",
+      "previewColor": {
+        "r": 63,
+        "g": 63,
+        "b": 70
+      }
+    },
+    {
+      "className": "text-zinc-800",
+      "description": "Sets text color to zinc",
+      "origin": "Hywind",
+      "code": "color: rgb(39, 39, 42)",
+      "previewColor": {
+        "r": 39,
+        "g": 39,
+        "b": 42
+      }
+    },
+    {
+      "className": "text-zinc-900",
+      "description": "Sets text color to zinc",
+      "origin": "Hywind",
+      "code": "color: rgb(24, 24, 27)",
+      "previewColor": {
+        "r": 24,
+        "g": 24,
+        "b": 27
+      }
+    },
+    {
+      "className": "text-zinc-950",
+      "description": "Sets text color to zinc",
+      "origin": "Hywind",
+      "code": "color: rgb(9, 9, 11)",
+      "previewColor": {
+        "r": 9,
+        "g": 9,
+        "b": 11
+      }
+    },
+    {
+      "className": "text-neutral-50",
+      "description": "Sets text color to neutral",
+      "origin": "Hywind",
+      "code": "color: rgb(250, 250, 250)",
+      "previewColor": {
+        "r": 250,
+        "g": 250,
+        "b": 250
+      }
+    },
+    {
+      "className": "text-neutral-100",
+      "description": "Sets text color to neutral",
+      "origin": "Hywind",
+      "code": "color: rgb(245, 245, 245)",
+      "previewColor": {
+        "r": 245,
+        "g": 245,
+        "b": 245
+      }
+    },
+    {
+      "className": "text-neutral-200",
+      "description": "Sets text color to neutral",
+      "origin": "Hywind",
+      "code": "color: rgb(229, 229, 229)",
+      "previewColor": {
+        "r": 229,
+        "g": 229,
+        "b": 229
+      }
+    },
+    {
+      "className": "text-neutral-300",
+      "description": "Sets text color to neutral",
+      "origin": "Hywind",
+      "code": "color: rgb(212, 212, 212)",
+      "previewColor": {
+        "r": 212,
+        "g": 212,
+        "b": 212
+      }
+    },
+    {
+      "className": "text-neutral-400",
+      "description": "Sets text color to neutral",
+      "origin": "Hywind",
+      "code": "color: rgb(161, 161, 161)",
+      "previewColor": {
+        "r": 161,
+        "g": 161,
+        "b": 161
+      }
+    },
+    {
+      "className": "text-neutral-500",
+      "description": "Sets text color to neutral",
+      "origin": "Hywind",
+      "code": "color: rgb(115, 115, 115)",
+      "previewColor": {
+        "r": 115,
+        "g": 115,
+        "b": 115
+      }
+    },
+    {
+      "className": "text-neutral-600",
+      "description": "Sets text color to neutral",
+      "origin": "Hywind",
+      "code": "color: rgb(82, 82, 82)",
+      "previewColor": {
+        "r": 82,
+        "g": 82,
+        "b": 82
+      }
+    },
+    {
+      "className": "text-neutral-700",
+      "description": "Sets text color to neutral",
+      "origin": "Hywind",
+      "code": "color: rgb(64, 64, 64)",
+      "previewColor": {
+        "r": 64,
+        "g": 64,
+        "b": 64
+      }
+    },
+    {
+      "className": "text-neutral-800",
+      "description": "Sets text color to neutral",
+      "origin": "Hywind",
+      "code": "color: rgb(38, 38, 38)",
+      "previewColor": {
+        "r": 38,
+        "g": 38,
+        "b": 38
+      }
+    },
+    {
+      "className": "text-neutral-900",
+      "description": "Sets text color to neutral",
+      "origin": "Hywind",
+      "code": "color: rgb(23, 23, 23)",
+      "previewColor": {
+        "r": 23,
+        "g": 23,
+        "b": 23
+      }
+    },
+    {
+      "className": "text-neutral-950",
+      "description": "Sets text color to neutral",
+      "origin": "Hywind",
+      "code": "color: rgb(10, 10, 10)",
+      "previewColor": {
+        "r": 10,
+        "g": 10,
+        "b": 10
+      }
+    },
+    {
+      "className": "text-stone-50",
+      "description": "Sets text color to stone",
+      "origin": "Hywind",
+      "code": "color: rgb(250, 250, 249)",
+      "previewColor": {
+        "r": 250,
+        "g": 250,
+        "b": 249
+      }
+    },
+    {
+      "className": "text-stone-100",
+      "description": "Sets text color to stone",
+      "origin": "Hywind",
+      "code": "color: rgb(245, 245, 244)",
+      "previewColor": {
+        "r": 245,
+        "g": 245,
+        "b": 244
+      }
+    },
+    {
+      "className": "text-stone-200",
+      "description": "Sets text color to stone",
+      "origin": "Hywind",
+      "code": "color: rgb(231, 229, 228)",
+      "previewColor": {
+        "r": 231,
+        "g": 229,
+        "b": 228
+      }
+    },
+    {
+      "className": "text-stone-300",
+      "description": "Sets text color to stone",
+      "origin": "Hywind",
+      "code": "color: rgb(214, 211, 209)",
+      "previewColor": {
+        "r": 214,
+        "g": 211,
+        "b": 209
+      }
+    },
+    {
+      "className": "text-stone-400",
+      "description": "Sets text color to stone",
+      "origin": "Hywind",
+      "code": "color: rgb(166, 160, 155)",
+      "previewColor": {
+        "r": 166,
+        "g": 160,
+        "b": 155
+      }
+    },
+    {
+      "className": "text-stone-500",
+      "description": "Sets text color to stone",
+      "origin": "Hywind",
+      "code": "color: rgb(121, 113, 107)",
+      "previewColor": {
+        "r": 121,
+        "g": 113,
+        "b": 107
+      }
+    },
+    {
+      "className": "text-stone-600",
+      "description": "Sets text color to stone",
+      "origin": "Hywind",
+      "code": "color: rgb(87, 83, 77)",
+      "previewColor": {
+        "r": 87,
+        "g": 83,
+        "b": 77
+      }
+    },
+    {
+      "className": "text-stone-700",
+      "description": "Sets text color to stone",
+      "origin": "Hywind",
+      "code": "color: rgb(68, 64, 59)",
+      "previewColor": {
+        "r": 68,
+        "g": 64,
+        "b": 59
+      }
+    },
+    {
+      "className": "text-stone-800",
+      "description": "Sets text color to stone",
+      "origin": "Hywind",
+      "code": "color: rgb(41, 37, 36)",
+      "previewColor": {
+        "r": 41,
+        "g": 37,
+        "b": 36
+      }
+    },
+    {
+      "className": "text-stone-900",
+      "description": "Sets text color to stone",
+      "origin": "Hywind",
+      "code": "color: rgb(28, 25, 23)",
+      "previewColor": {
+        "r": 28,
+        "g": 25,
+        "b": 23
+      }
+    },
+    {
+      "className": "text-stone-950",
+      "description": "Sets text color to stone",
+      "origin": "Hywind",
+      "code": "color: rgb(12, 10, 9)",
+      "previewColor": {
+        "r": 12,
+        "g": 10,
+        "b": 9
+      }
+    },
+    {
+      "className": "text-red-50",
+      "description": "Sets text color to red",
+      "origin": "Hywind",
+      "code": "color: rgb(254, 242, 242)",
+      "previewColor": {
+        "r": 254,
+        "g": 242,
+        "b": 242
+      }
+    },
+    {
+      "className": "text-red-100",
+      "description": "Sets text color to red",
+      "origin": "Hywind",
+      "code": "color: rgb(255, 226, 226)",
+      "previewColor": {
+        "r": 255,
+        "g": 226,
+        "b": 226
+      }
+    },
+    {
+      "className": "text-red-200",
+      "description": "Sets text color to red",
+      "origin": "Hywind",
+      "code": "color: rgb(255, 201, 201)",
+      "previewColor": {
+        "r": 255,
+        "g": 201,
+        "b": 201
+      }
+    },
+    {
+      "className": "text-red-300",
+      "description": "Sets text color to red",
+      "origin": "Hywind",
+      "code": "color: rgb(255, 162, 162)",
+      "previewColor": {
+        "r": 255,
+        "g": 162,
+        "b": 162
+      }
+    },
+    {
+      "className": "text-red-400",
+      "description": "Sets text color to red",
+      "origin": "Hywind",
+      "code": "color: rgb(255, 100, 103)",
+      "previewColor": {
+        "r": 255,
+        "g": 100,
+        "b": 103
+      }
+    },
+    {
+      "className": "text-red-500",
+      "description": "Sets text color to red",
+      "origin": "Hywind",
+      "code": "color: rgb(251, 44, 54)",
+      "previewColor": {
+        "r": 251,
+        "g": 44,
+        "b": 54
+      }
+    },
+    {
+      "className": "text-red-600",
+      "description": "Sets text color to red",
+      "origin": "Hywind",
+      "code": "color: rgb(231, 0, 11)",
+      "previewColor": {
+        "r": 231,
+        "g": 0,
+        "b": 11
+      }
+    },
+    {
+      "className": "text-red-700",
+      "description": "Sets text color to red",
+      "origin": "Hywind",
+      "code": "color: rgb(193, 0, 7)",
+      "previewColor": {
+        "r": 193,
+        "g": 0,
+        "b": 7
+      }
+    },
+    {
+      "className": "text-red-800",
+      "description": "Sets text color to red",
+      "origin": "Hywind",
+      "code": "color: rgb(159, 7, 18)",
+      "previewColor": {
+        "r": 159,
+        "g": 7,
+        "b": 18
+      }
+    },
+    {
+      "className": "text-red-900",
+      "description": "Sets text color to red",
+      "origin": "Hywind",
+      "code": "color: rgb(130, 24, 26)",
+      "previewColor": {
+        "r": 130,
+        "g": 24,
+        "b": 26
+      }
+    },
+    {
+      "className": "text-red-950",
+      "description": "Sets text color to red",
+      "origin": "Hywind",
+      "code": "color: rgb(70, 8, 9)",
+      "previewColor": {
+        "r": 70,
+        "g": 8,
+        "b": 9
+      }
+    },
+    {
+      "className": "text-orange-50",
+      "description": "Sets text color to orange",
+      "origin": "Hywind",
+      "code": "color: rgb(255, 247, 237)",
+      "previewColor": {
+        "r": 255,
+        "g": 247,
+        "b": 237
+      }
+    },
+    {
+      "className": "text-orange-100",
+      "description": "Sets text color to orange",
+      "origin": "Hywind",
+      "code": "color: rgb(255, 237, 212)",
+      "previewColor": {
+        "r": 255,
+        "g": 237,
+        "b": 212
+      }
+    },
+    {
+      "className": "text-orange-200",
+      "description": "Sets text color to orange",
+      "origin": "Hywind",
+      "code": "color: rgb(255, 214, 167)",
+      "previewColor": {
+        "r": 255,
+        "g": 214,
+        "b": 167
+      }
+    },
+    {
+      "className": "text-orange-300",
+      "description": "Sets text color to orange",
+      "origin": "Hywind",
+      "code": "color: rgb(255, 184, 106)",
+      "previewColor": {
+        "r": 255,
+        "g": 184,
+        "b": 106
+      }
+    },
+    {
+      "className": "text-orange-400",
+      "description": "Sets text color to orange",
+      "origin": "Hywind",
+      "code": "color: rgb(255, 137, 4)",
+      "previewColor": {
+        "r": 255,
+        "g": 137,
+        "b": 4
+      }
+    },
+    {
+      "className": "text-orange-500",
+      "description": "Sets text color to orange",
+      "origin": "Hywind",
+      "code": "color: rgb(255, 105, 0)",
+      "previewColor": {
+        "r": 255,
+        "g": 105,
+        "b": 0
+      }
+    },
+    {
+      "className": "text-orange-600",
+      "description": "Sets text color to orange",
+      "origin": "Hywind",
+      "code": "color: rgb(245, 73, 0)",
+      "previewColor": {
+        "r": 245,
+        "g": 73,
+        "b": 0
+      }
+    },
+    {
+      "className": "text-orange-700",
+      "description": "Sets text color to orange",
+      "origin": "Hywind",
+      "code": "color: rgb(202, 53, 0)",
+      "previewColor": {
+        "r": 202,
+        "g": 53,
+        "b": 0
+      }
+    },
+    {
+      "className": "text-orange-800",
+      "description": "Sets text color to orange",
+      "origin": "Hywind",
+      "code": "color: rgb(159, 45, 0)",
+      "previewColor": {
+        "r": 159,
+        "g": 45,
+        "b": 0
+      }
+    },
+    {
+      "className": "text-orange-900",
+      "description": "Sets text color to orange",
+      "origin": "Hywind",
+      "code": "color: rgb(126, 42, 12)",
+      "previewColor": {
+        "r": 126,
+        "g": 42,
+        "b": 12
+      }
+    },
+    {
+      "className": "text-orange-950",
+      "description": "Sets text color to orange",
+      "origin": "Hywind",
+      "code": "color: rgb(68, 19, 6)",
+      "previewColor": {
+        "r": 68,
+        "g": 19,
+        "b": 6
+      }
+    },
+    {
+      "className": "text-amber-50",
+      "description": "Sets text color to amber",
+      "origin": "Hywind",
+      "code": "color: rgb(255, 251, 235)",
+      "previewColor": {
+        "r": 255,
+        "g": 251,
+        "b": 235
+      }
+    },
+    {
+      "className": "text-amber-100",
+      "description": "Sets text color to amber",
+      "origin": "Hywind",
+      "code": "color: rgb(254, 243, 198)",
+      "previewColor": {
+        "r": 254,
+        "g": 243,
+        "b": 198
+      }
+    },
+    {
+      "className": "text-amber-200",
+      "description": "Sets text color to amber",
+      "origin": "Hywind",
+      "code": "color: rgb(254, 230, 133)",
+      "previewColor": {
+        "r": 254,
+        "g": 230,
+        "b": 133
+      }
+    },
+    {
+      "className": "text-amber-300",
+      "description": "Sets text color to amber",
+      "origin": "Hywind",
+      "code": "color: rgb(255, 210, 48)",
+      "previewColor": {
+        "r": 255,
+        "g": 210,
+        "b": 48
+      }
+    },
+    {
+      "className": "text-amber-400",
+      "description": "Sets text color to amber",
+      "origin": "Hywind",
+      "code": "color: rgb(255, 185, 0)",
+      "previewColor": {
+        "r": 255,
+        "g": 185,
+        "b": 0
+      }
+    },
+    {
+      "className": "text-amber-500",
+      "description": "Sets text color to amber",
+      "origin": "Hywind",
+      "code": "color: rgb(254, 154, 0)",
+      "previewColor": {
+        "r": 254,
+        "g": 154,
+        "b": 0
+      }
+    },
+    {
+      "className": "text-amber-600",
+      "description": "Sets text color to amber",
+      "origin": "Hywind",
+      "code": "color: rgb(225, 113, 0)",
+      "previewColor": {
+        "r": 225,
+        "g": 113,
+        "b": 0
+      }
+    },
+    {
+      "className": "text-amber-700",
+      "description": "Sets text color to amber",
+      "origin": "Hywind",
+      "code": "color: rgb(187, 77, 0)",
+      "previewColor": {
+        "r": 187,
+        "g": 77,
+        "b": 0
+      }
+    },
+    {
+      "className": "text-amber-800",
+      "description": "Sets text color to amber",
+      "origin": "Hywind",
+      "code": "color: rgb(151, 60, 0)",
+      "previewColor": {
+        "r": 151,
+        "g": 60,
+        "b": 0
+      }
+    },
+    {
+      "className": "text-amber-900",
+      "description": "Sets text color to amber",
+      "origin": "Hywind",
+      "code": "color: rgb(123, 51, 6)",
+      "previewColor": {
+        "r": 123,
+        "g": 51,
+        "b": 6
+      }
+    },
+    {
+      "className": "text-amber-950",
+      "description": "Sets text color to amber",
+      "origin": "Hywind",
+      "code": "color: rgb(70, 25, 1)",
+      "previewColor": {
+        "r": 70,
+        "g": 25,
+        "b": 1
+      }
+    },
+    {
+      "className": "text-yellow-50",
+      "description": "Sets text color to yellow",
+      "origin": "Hywind",
+      "code": "color: rgb(254, 252, 232)",
+      "previewColor": {
+        "r": 254,
+        "g": 252,
+        "b": 232
+      }
+    },
+    {
+      "className": "text-yellow-100",
+      "description": "Sets text color to yellow",
+      "origin": "Hywind",
+      "code": "color: rgb(254, 249, 194)",
+      "previewColor": {
+        "r": 254,
+        "g": 249,
+        "b": 194
+      }
+    },
+    {
+      "className": "text-yellow-200",
+      "description": "Sets text color to yellow",
+      "origin": "Hywind",
+      "code": "color: rgb(255, 240, 133)",
+      "previewColor": {
+        "r": 255,
+        "g": 240,
+        "b": 133
+      }
+    },
+    {
+      "className": "text-yellow-300",
+      "description": "Sets text color to yellow",
+      "origin": "Hywind",
+      "code": "color: rgb(255, 223, 32)",
+      "previewColor": {
+        "r": 255,
+        "g": 223,
+        "b": 32
+      }
+    },
+    {
+      "className": "text-yellow-400",
+      "description": "Sets text color to yellow",
+      "origin": "Hywind",
+      "code": "color: rgb(253, 199, 0)",
+      "previewColor": {
+        "r": 253,
+        "g": 199,
+        "b": 0
+      }
+    },
+    {
+      "className": "text-yellow-500",
+      "description": "Sets text color to yellow",
+      "origin": "Hywind",
+      "code": "color: rgb(240, 177, 0)",
+      "previewColor": {
+        "r": 240,
+        "g": 177,
+        "b": 0
+      }
+    },
+    {
+      "className": "text-yellow-600",
+      "description": "Sets text color to yellow",
+      "origin": "Hywind",
+      "code": "color: rgb(208, 135, 0)",
+      "previewColor": {
+        "r": 208,
+        "g": 135,
+        "b": 0
+      }
+    },
+    {
+      "className": "text-yellow-700",
+      "description": "Sets text color to yellow",
+      "origin": "Hywind",
+      "code": "color: rgb(166, 95, 0)",
+      "previewColor": {
+        "r": 166,
+        "g": 95,
+        "b": 0
+      }
+    },
+    {
+      "className": "text-yellow-800",
+      "description": "Sets text color to yellow",
+      "origin": "Hywind",
+      "code": "color: rgb(137, 75, 0)",
+      "previewColor": {
+        "r": 137,
+        "g": 75,
+        "b": 0
+      }
+    },
+    {
+      "className": "text-yellow-900",
+      "description": "Sets text color to yellow",
+      "origin": "Hywind",
+      "code": "color: rgb(115, 62, 10)",
+      "previewColor": {
+        "r": 115,
+        "g": 62,
+        "b": 10
+      }
+    },
+    {
+      "className": "text-yellow-950",
+      "description": "Sets text color to yellow",
+      "origin": "Hywind",
+      "code": "color: rgb(67, 32, 4)",
+      "previewColor": {
+        "r": 67,
+        "g": 32,
+        "b": 4
+      }
+    },
+    {
+      "className": "text-lime-50",
+      "description": "Sets text color to lime",
+      "origin": "Hywind",
+      "code": "color: rgb(247, 254, 231)",
+      "previewColor": {
+        "r": 247,
+        "g": 254,
+        "b": 231
+      }
+    },
+    {
+      "className": "text-lime-100",
+      "description": "Sets text color to lime",
+      "origin": "Hywind",
+      "code": "color: rgb(236, 252, 202)",
+      "previewColor": {
+        "r": 236,
+        "g": 252,
+        "b": 202
+      }
+    },
+    {
+      "className": "text-lime-200",
+      "description": "Sets text color to lime",
+      "origin": "Hywind",
+      "code": "color: rgb(216, 249, 153)",
+      "previewColor": {
+        "r": 216,
+        "g": 249,
+        "b": 153
+      }
+    },
+    {
+      "className": "text-lime-300",
+      "description": "Sets text color to lime",
+      "origin": "Hywind",
+      "code": "color: rgb(187, 244, 81)",
+      "previewColor": {
+        "r": 187,
+        "g": 244,
+        "b": 81
+      }
+    },
+    {
+      "className": "text-lime-400",
+      "description": "Sets text color to lime",
+      "origin": "Hywind",
+      "code": "color: rgb(154, 230, 0)",
+      "previewColor": {
+        "r": 154,
+        "g": 230,
+        "b": 0
+      }
+    },
+    {
+      "className": "text-lime-500",
+      "description": "Sets text color to lime",
+      "origin": "Hywind",
+      "code": "color: rgb(124, 207, 0)",
+      "previewColor": {
+        "r": 124,
+        "g": 207,
+        "b": 0
+      }
+    },
+    {
+      "className": "text-lime-600",
+      "description": "Sets text color to lime",
+      "origin": "Hywind",
+      "code": "color: rgb(94, 165, 0)",
+      "previewColor": {
+        "r": 94,
+        "g": 165,
+        "b": 0
+      }
+    },
+    {
+      "className": "text-lime-700",
+      "description": "Sets text color to lime",
+      "origin": "Hywind",
+      "code": "color: rgb(73, 125, 0)",
+      "previewColor": {
+        "r": 73,
+        "g": 125,
+        "b": 0
+      }
+    },
+    {
+      "className": "text-lime-800",
+      "description": "Sets text color to lime",
+      "origin": "Hywind",
+      "code": "color: rgb(60, 99, 0)",
+      "previewColor": {
+        "r": 60,
+        "g": 99,
+        "b": 0
+      }
+    },
+    {
+      "className": "text-lime-900",
+      "description": "Sets text color to lime",
+      "origin": "Hywind",
+      "code": "color: rgb(53, 83, 14)",
+      "previewColor": {
+        "r": 53,
+        "g": 83,
+        "b": 14
+      }
+    },
+    {
+      "className": "text-lime-950",
+      "description": "Sets text color to lime",
+      "origin": "Hywind",
+      "code": "color: rgb(25, 46, 3)",
+      "previewColor": {
+        "r": 25,
+        "g": 46,
+        "b": 3
+      }
+    },
+    {
+      "className": "text-green-50",
+      "description": "Sets text color to green",
+      "origin": "Hywind",
+      "code": "color: rgb(240, 253, 244)",
+      "previewColor": {
+        "r": 240,
+        "g": 253,
+        "b": 244
+      }
+    },
+    {
+      "className": "text-green-100",
+      "description": "Sets text color to green",
+      "origin": "Hywind",
+      "code": "color: rgb(220, 252, 231)",
+      "previewColor": {
+        "r": 220,
+        "g": 252,
+        "b": 231
+      }
+    },
+    {
+      "className": "text-green-200",
+      "description": "Sets text color to green",
+      "origin": "Hywind",
+      "code": "color: rgb(185, 248, 207)",
+      "previewColor": {
+        "r": 185,
+        "g": 248,
+        "b": 207
+      }
+    },
+    {
+      "className": "text-green-300",
+      "description": "Sets text color to green",
+      "origin": "Hywind",
+      "code": "color: rgb(123, 241, 168)",
+      "previewColor": {
+        "r": 123,
+        "g": 241,
+        "b": 168
+      }
+    },
+    {
+      "className": "text-green-400",
+      "description": "Sets text color to green",
+      "origin": "Hywind",
+      "code": "color: rgb(5, 223, 114)",
+      "previewColor": {
+        "r": 5,
+        "g": 223,
+        "b": 114
+      }
+    },
+    {
+      "className": "text-green-500",
+      "description": "Sets text color to green",
+      "origin": "Hywind",
+      "code": "color: rgb(0, 201, 80)",
+      "previewColor": {
+        "r": 0,
+        "g": 201,
+        "b": 80
+      }
+    },
+    {
+      "className": "text-green-600",
+      "description": "Sets text color to green",
+      "origin": "Hywind",
+      "code": "color: rgb(0, 166, 62)",
+      "previewColor": {
+        "r": 0,
+        "g": 166,
+        "b": 62
+      }
+    },
+    {
+      "className": "text-green-700",
+      "description": "Sets text color to green",
+      "origin": "Hywind",
+      "code": "color: rgb(0, 130, 54)",
+      "previewColor": {
+        "r": 0,
+        "g": 130,
+        "b": 54
+      }
+    },
+    {
+      "className": "text-green-800",
+      "description": "Sets text color to green",
+      "origin": "Hywind",
+      "code": "color: rgb(1, 102, 48)",
+      "previewColor": {
+        "r": 1,
+        "g": 102,
+        "b": 48
+      }
+    },
+    {
+      "className": "text-green-900",
+      "description": "Sets text color to green",
+      "origin": "Hywind",
+      "code": "color: rgb(13, 84, 43)",
+      "previewColor": {
+        "r": 13,
+        "g": 84,
+        "b": 43
+      }
+    },
+    {
+      "className": "text-green-950",
+      "description": "Sets text color to green",
+      "origin": "Hywind",
+      "code": "color: rgb(3, 46, 21)",
+      "previewColor": {
+        "r": 3,
+        "g": 46,
+        "b": 21
+      }
+    },
+    {
+      "className": "text-emerald-50",
+      "description": "Sets text color to emerald",
+      "origin": "Hywind",
+      "code": "color: rgb(236, 253, 245)",
+      "previewColor": {
+        "r": 236,
+        "g": 253,
+        "b": 245
+      }
+    },
+    {
+      "className": "text-emerald-100",
+      "description": "Sets text color to emerald",
+      "origin": "Hywind",
+      "code": "color: rgb(208, 250, 229)",
+      "previewColor": {
+        "r": 208,
+        "g": 250,
+        "b": 229
+      }
+    },
+    {
+      "className": "text-emerald-200",
+      "description": "Sets text color to emerald",
+      "origin": "Hywind",
+      "code": "color: rgb(164, 244, 207)",
+      "previewColor": {
+        "r": 164,
+        "g": 244,
+        "b": 207
+      }
+    },
+    {
+      "className": "text-emerald-300",
+      "description": "Sets text color to emerald",
+      "origin": "Hywind",
+      "code": "color: rgb(94, 233, 181)",
+      "previewColor": {
+        "r": 94,
+        "g": 233,
+        "b": 181
+      }
+    },
+    {
+      "className": "text-emerald-400",
+      "description": "Sets text color to emerald",
+      "origin": "Hywind",
+      "code": "color: rgb(0, 212, 146)",
+      "previewColor": {
+        "r": 0,
+        "g": 212,
+        "b": 146
+      }
+    },
+    {
+      "className": "text-emerald-500",
+      "description": "Sets text color to emerald",
+      "origin": "Hywind",
+      "code": "color: rgb(0, 188, 125)",
+      "previewColor": {
+        "r": 0,
+        "g": 188,
+        "b": 125
+      }
+    },
+    {
+      "className": "text-emerald-600",
+      "description": "Sets text color to emerald",
+      "origin": "Hywind",
+      "code": "color: rgb(0, 153, 102)",
+      "previewColor": {
+        "r": 0,
+        "g": 153,
+        "b": 102
+      }
+    },
+    {
+      "className": "text-emerald-700",
+      "description": "Sets text color to emerald",
+      "origin": "Hywind",
+      "code": "color: rgb(0, 122, 85)",
+      "previewColor": {
+        "r": 0,
+        "g": 122,
+        "b": 85
+      }
+    },
+    {
+      "className": "text-emerald-800",
+      "description": "Sets text color to emerald",
+      "origin": "Hywind",
+      "code": "color: rgb(0, 96, 69)",
+      "previewColor": {
+        "r": 0,
+        "g": 96,
+        "b": 69
+      }
+    },
+    {
+      "className": "text-emerald-900",
+      "description": "Sets text color to emerald",
+      "origin": "Hywind",
+      "code": "color: rgb(0, 79, 59)",
+      "previewColor": {
+        "r": 0,
+        "g": 79,
+        "b": 59
+      }
+    },
+    {
+      "className": "text-emerald-950",
+      "description": "Sets text color to emerald",
+      "origin": "Hywind",
+      "code": "color: rgb(0, 44, 34)",
+      "previewColor": {
+        "r": 0,
+        "g": 44,
+        "b": 34
+      }
+    },
+    {
+      "className": "text-teal-50",
+      "description": "Sets text color to teal",
+      "origin": "Hywind",
+      "code": "color: rgb(240, 253, 250)",
+      "previewColor": {
+        "r": 240,
+        "g": 253,
+        "b": 250
+      }
+    },
+    {
+      "className": "text-teal-100",
+      "description": "Sets text color to teal",
+      "origin": "Hywind",
+      "code": "color: rgb(203, 251, 241)",
+      "previewColor": {
+        "r": 203,
+        "g": 251,
+        "b": 241
+      }
+    },
+    {
+      "className": "text-teal-200",
+      "description": "Sets text color to teal",
+      "origin": "Hywind",
+      "code": "color: rgb(150, 247, 228)",
+      "previewColor": {
+        "r": 150,
+        "g": 247,
+        "b": 228
+      }
+    },
+    {
+      "className": "text-teal-300",
+      "description": "Sets text color to teal",
+      "origin": "Hywind",
+      "code": "color: rgb(70, 236, 213)",
+      "previewColor": {
+        "r": 70,
+        "g": 236,
+        "b": 213
+      }
+    },
+    {
+      "className": "text-teal-400",
+      "description": "Sets text color to teal",
+      "origin": "Hywind",
+      "code": "color: rgb(0, 213, 190)",
+      "previewColor": {
+        "r": 0,
+        "g": 213,
+        "b": 190
+      }
+    },
+    {
+      "className": "text-teal-500",
+      "description": "Sets text color to teal",
+      "origin": "Hywind",
+      "code": "color: rgb(0, 187, 167)",
+      "previewColor": {
+        "r": 0,
+        "g": 187,
+        "b": 167
+      }
+    },
+    {
+      "className": "text-teal-600",
+      "description": "Sets text color to teal",
+      "origin": "Hywind",
+      "code": "color: rgb(0, 150, 137)",
+      "previewColor": {
+        "r": 0,
+        "g": 150,
+        "b": 137
+      }
+    },
+    {
+      "className": "text-teal-700",
+      "description": "Sets text color to teal",
+      "origin": "Hywind",
+      "code": "color: rgb(0, 120, 111)",
+      "previewColor": {
+        "r": 0,
+        "g": 120,
+        "b": 111
+      }
+    },
+    {
+      "className": "text-teal-800",
+      "description": "Sets text color to teal",
+      "origin": "Hywind",
+      "code": "color: rgb(0, 95, 90)",
+      "previewColor": {
+        "r": 0,
+        "g": 95,
+        "b": 90
+      }
+    },
+    {
+      "className": "text-teal-900",
+      "description": "Sets text color to teal",
+      "origin": "Hywind",
+      "code": "color: rgb(11, 79, 74)",
+      "previewColor": {
+        "r": 11,
+        "g": 79,
+        "b": 74
+      }
+    },
+    {
+      "className": "text-teal-950",
+      "description": "Sets text color to teal",
+      "origin": "Hywind",
+      "code": "color: rgb(2, 47, 46)",
+      "previewColor": {
+        "r": 2,
+        "g": 47,
+        "b": 46
+      }
+    },
+    {
+      "className": "text-cyan-50",
+      "description": "Sets text color to cyan",
+      "origin": "Hywind",
+      "code": "color: rgb(236, 254, 255)",
+      "previewColor": {
+        "r": 236,
+        "g": 254,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-cyan-100",
+      "description": "Sets text color to cyan",
+      "origin": "Hywind",
+      "code": "color: rgb(206, 250, 254)",
+      "previewColor": {
+        "r": 206,
+        "g": 250,
+        "b": 254
+      }
+    },
+    {
+      "className": "text-cyan-200",
+      "description": "Sets text color to cyan",
+      "origin": "Hywind",
+      "code": "color: rgb(162, 244, 253)",
+      "previewColor": {
+        "r": 162,
+        "g": 244,
+        "b": 253
+      }
+    },
+    {
+      "className": "text-cyan-300",
+      "description": "Sets text color to cyan",
+      "origin": "Hywind",
+      "code": "color: rgb(83, 234, 253)",
+      "previewColor": {
+        "r": 83,
+        "g": 234,
+        "b": 253
+      }
+    },
+    {
+      "className": "text-cyan-400",
+      "description": "Sets text color to cyan",
+      "origin": "Hywind",
+      "code": "color: rgb(0, 211, 242)",
+      "previewColor": {
+        "r": 0,
+        "g": 211,
+        "b": 242
+      }
+    },
+    {
+      "className": "text-cyan-500",
+      "description": "Sets text color to cyan",
+      "origin": "Hywind",
+      "code": "color: rgb(0, 184, 219)",
+      "previewColor": {
+        "r": 0,
+        "g": 184,
+        "b": 219
+      }
+    },
+    {
+      "className": "text-cyan-600",
+      "description": "Sets text color to cyan",
+      "origin": "Hywind",
+      "code": "color: rgb(0, 146, 184)",
+      "previewColor": {
+        "r": 0,
+        "g": 146,
+        "b": 184
+      }
+    },
+    {
+      "className": "text-cyan-700",
+      "description": "Sets text color to cyan",
+      "origin": "Hywind",
+      "code": "color: rgb(0, 117, 149)",
+      "previewColor": {
+        "r": 0,
+        "g": 117,
+        "b": 149
+      }
+    },
+    {
+      "className": "text-cyan-800",
+      "description": "Sets text color to cyan",
+      "origin": "Hywind",
+      "code": "color: rgb(0, 95, 120)",
+      "previewColor": {
+        "r": 0,
+        "g": 95,
+        "b": 120
+      }
+    },
+    {
+      "className": "text-cyan-900",
+      "description": "Sets text color to cyan",
+      "origin": "Hywind",
+      "code": "color: rgb(16, 78, 100)",
+      "previewColor": {
+        "r": 16,
+        "g": 78,
+        "b": 100
+      }
+    },
+    {
+      "className": "text-cyan-950",
+      "description": "Sets text color to cyan",
+      "origin": "Hywind",
+      "code": "color: rgb(5, 51, 69)",
+      "previewColor": {
+        "r": 5,
+        "g": 51,
+        "b": 69
+      }
+    },
+    {
+      "className": "text-sky-50",
+      "description": "Sets text color to sky",
+      "origin": "Hywind",
+      "code": "color: rgb(240, 249, 255)",
+      "previewColor": {
+        "r": 240,
+        "g": 249,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-sky-100",
+      "description": "Sets text color to sky",
+      "origin": "Hywind",
+      "code": "color: rgb(223, 242, 254)",
+      "previewColor": {
+        "r": 223,
+        "g": 242,
+        "b": 254
+      }
+    },
+    {
+      "className": "text-sky-200",
+      "description": "Sets text color to sky",
+      "origin": "Hywind",
+      "code": "color: rgb(184, 230, 254)",
+      "previewColor": {
+        "r": 184,
+        "g": 230,
+        "b": 254
+      }
+    },
+    {
+      "className": "text-sky-300",
+      "description": "Sets text color to sky",
+      "origin": "Hywind",
+      "code": "color: rgb(116, 212, 255)",
+      "previewColor": {
+        "r": 116,
+        "g": 212,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-sky-400",
+      "description": "Sets text color to sky",
+      "origin": "Hywind",
+      "code": "color: rgb(0, 188, 255)",
+      "previewColor": {
+        "r": 0,
+        "g": 188,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-sky-500",
+      "description": "Sets text color to sky",
+      "origin": "Hywind",
+      "code": "color: rgb(0, 166, 244)",
+      "previewColor": {
+        "r": 0,
+        "g": 166,
+        "b": 244
+      }
+    },
+    {
+      "className": "text-sky-600",
+      "description": "Sets text color to sky",
+      "origin": "Hywind",
+      "code": "color: rgb(0, 132, 209)",
+      "previewColor": {
+        "r": 0,
+        "g": 132,
+        "b": 209
+      }
+    },
+    {
+      "className": "text-sky-700",
+      "description": "Sets text color to sky",
+      "origin": "Hywind",
+      "code": "color: rgb(0, 105, 168)",
+      "previewColor": {
+        "r": 0,
+        "g": 105,
+        "b": 168
+      }
+    },
+    {
+      "className": "text-sky-800",
+      "description": "Sets text color to sky",
+      "origin": "Hywind",
+      "code": "color: rgb(0, 89, 138)",
+      "previewColor": {
+        "r": 0,
+        "g": 89,
+        "b": 138
+      }
+    },
+    {
+      "className": "text-sky-900",
+      "description": "Sets text color to sky",
+      "origin": "Hywind",
+      "code": "color: rgb(2, 74, 112)",
+      "previewColor": {
+        "r": 2,
+        "g": 74,
+        "b": 112
+      }
+    },
+    {
+      "className": "text-sky-950",
+      "description": "Sets text color to sky",
+      "origin": "Hywind",
+      "code": "color: rgb(5, 47, 74)",
+      "previewColor": {
+        "r": 5,
+        "g": 47,
+        "b": 74
+      }
+    },
+    {
+      "className": "text-blue-50",
+      "description": "Sets text color to blue",
+      "origin": "Hywind",
+      "code": "color: rgb(239, 246, 255)",
+      "previewColor": {
+        "r": 239,
+        "g": 246,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-blue-100",
+      "description": "Sets text color to blue",
+      "origin": "Hywind",
+      "code": "color: rgb(219, 234, 254)",
+      "previewColor": {
+        "r": 219,
+        "g": 234,
+        "b": 254
+      }
+    },
+    {
+      "className": "text-blue-200",
+      "description": "Sets text color to blue",
+      "origin": "Hywind",
+      "code": "color: rgb(190, 219, 255)",
+      "previewColor": {
+        "r": 190,
+        "g": 219,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-blue-300",
+      "description": "Sets text color to blue",
+      "origin": "Hywind",
+      "code": "color: rgb(142, 197, 255)",
+      "previewColor": {
+        "r": 142,
+        "g": 197,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-blue-400",
+      "description": "Sets text color to blue",
+      "origin": "Hywind",
+      "code": "color: rgb(81, 162, 255)",
+      "previewColor": {
+        "r": 81,
+        "g": 162,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-blue-500",
+      "description": "Sets text color to blue",
+      "origin": "Hywind",
+      "code": "color: rgb(43, 127, 255)",
+      "previewColor": {
+        "r": 43,
+        "g": 127,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-blue-600",
+      "description": "Sets text color to blue",
+      "origin": "Hywind",
+      "code": "color: rgb(21, 93, 252)",
+      "previewColor": {
+        "r": 21,
+        "g": 93,
+        "b": 252
+      }
+    },
+    {
+      "className": "text-blue-700",
+      "description": "Sets text color to blue",
+      "origin": "Hywind",
+      "code": "color: rgb(20, 71, 230)",
+      "previewColor": {
+        "r": 20,
+        "g": 71,
+        "b": 230
+      }
+    },
+    {
+      "className": "text-blue-800",
+      "description": "Sets text color to blue",
+      "origin": "Hywind",
+      "code": "color: rgb(25, 60, 184)",
+      "previewColor": {
+        "r": 25,
+        "g": 60,
+        "b": 184
+      }
+    },
+    {
+      "className": "text-blue-900",
+      "description": "Sets text color to blue",
+      "origin": "Hywind",
+      "code": "color: rgb(28, 57, 142)",
+      "previewColor": {
+        "r": 28,
+        "g": 57,
+        "b": 142
+      }
+    },
+    {
+      "className": "text-blue-950",
+      "description": "Sets text color to blue",
+      "origin": "Hywind",
+      "code": "color: rgb(22, 36, 86)",
+      "previewColor": {
+        "r": 22,
+        "g": 36,
+        "b": 86
+      }
+    },
+    {
+      "className": "text-indigo-50",
+      "description": "Sets text color to indigo",
+      "origin": "Hywind",
+      "code": "color: rgb(238, 242, 255)",
+      "previewColor": {
+        "r": 238,
+        "g": 242,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-indigo-100",
+      "description": "Sets text color to indigo",
+      "origin": "Hywind",
+      "code": "color: rgb(224, 231, 255)",
+      "previewColor": {
+        "r": 224,
+        "g": 231,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-indigo-200",
+      "description": "Sets text color to indigo",
+      "origin": "Hywind",
+      "code": "color: rgb(198, 210, 255)",
+      "previewColor": {
+        "r": 198,
+        "g": 210,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-indigo-300",
+      "description": "Sets text color to indigo",
+      "origin": "Hywind",
+      "code": "color: rgb(163, 179, 255)",
+      "previewColor": {
+        "r": 163,
+        "g": 179,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-indigo-400",
+      "description": "Sets text color to indigo",
+      "origin": "Hywind",
+      "code": "color: rgb(124, 134, 255)",
+      "previewColor": {
+        "r": 124,
+        "g": 134,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-indigo-500",
+      "description": "Sets text color to indigo",
+      "origin": "Hywind",
+      "code": "color: rgb(97, 95, 255)",
+      "previewColor": {
+        "r": 97,
+        "g": 95,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-indigo-600",
+      "description": "Sets text color to indigo",
+      "origin": "Hywind",
+      "code": "color: rgb(79, 57, 246)",
+      "previewColor": {
+        "r": 79,
+        "g": 57,
+        "b": 246
+      }
+    },
+    {
+      "className": "text-indigo-700",
+      "description": "Sets text color to indigo",
+      "origin": "Hywind",
+      "code": "color: rgb(67, 45, 215)",
+      "previewColor": {
+        "r": 67,
+        "g": 45,
+        "b": 215
+      }
+    },
+    {
+      "className": "text-indigo-800",
+      "description": "Sets text color to indigo",
+      "origin": "Hywind",
+      "code": "color: rgb(55, 42, 172)",
+      "previewColor": {
+        "r": 55,
+        "g": 42,
+        "b": 172
+      }
+    },
+    {
+      "className": "text-indigo-900",
+      "description": "Sets text color to indigo",
+      "origin": "Hywind",
+      "code": "color: rgb(49, 44, 133)",
+      "previewColor": {
+        "r": 49,
+        "g": 44,
+        "b": 133
+      }
+    },
+    {
+      "className": "text-indigo-950",
+      "description": "Sets text color to indigo",
+      "origin": "Hywind",
+      "code": "color: rgb(30, 26, 77)",
+      "previewColor": {
+        "r": 30,
+        "g": 26,
+        "b": 77
+      }
+    },
+    {
+      "className": "text-violet-50",
+      "description": "Sets text color to violet",
+      "origin": "Hywind",
+      "code": "color: rgb(245, 243, 255)",
+      "previewColor": {
+        "r": 245,
+        "g": 243,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-violet-100",
+      "description": "Sets text color to violet",
+      "origin": "Hywind",
+      "code": "color: rgb(237, 233, 254)",
+      "previewColor": {
+        "r": 237,
+        "g": 233,
+        "b": 254
+      }
+    },
+    {
+      "className": "text-violet-200",
+      "description": "Sets text color to violet",
+      "origin": "Hywind",
+      "code": "color: rgb(221, 214, 255)",
+      "previewColor": {
+        "r": 221,
+        "g": 214,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-violet-300",
+      "description": "Sets text color to violet",
+      "origin": "Hywind",
+      "code": "color: rgb(196, 180, 255)",
+      "previewColor": {
+        "r": 196,
+        "g": 180,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-violet-400",
+      "description": "Sets text color to violet",
+      "origin": "Hywind",
+      "code": "color: rgb(166, 132, 255)",
+      "previewColor": {
+        "r": 166,
+        "g": 132,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-violet-500",
+      "description": "Sets text color to violet",
+      "origin": "Hywind",
+      "code": "color: rgb(142, 81, 255)",
+      "previewColor": {
+        "r": 142,
+        "g": 81,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-violet-600",
+      "description": "Sets text color to violet",
+      "origin": "Hywind",
+      "code": "color: rgb(127, 34, 254)",
+      "previewColor": {
+        "r": 127,
+        "g": 34,
+        "b": 254
+      }
+    },
+    {
+      "className": "text-violet-700",
+      "description": "Sets text color to violet",
+      "origin": "Hywind",
+      "code": "color: rgb(112, 8, 231)",
+      "previewColor": {
+        "r": 112,
+        "g": 8,
+        "b": 231
+      }
+    },
+    {
+      "className": "text-violet-800",
+      "description": "Sets text color to violet",
+      "origin": "Hywind",
+      "code": "color: rgb(93, 14, 192)",
+      "previewColor": {
+        "r": 93,
+        "g": 14,
+        "b": 192
+      }
+    },
+    {
+      "className": "text-violet-900",
+      "description": "Sets text color to violet",
+      "origin": "Hywind",
+      "code": "color: rgb(77, 23, 154)",
+      "previewColor": {
+        "r": 77,
+        "g": 23,
+        "b": 154
+      }
+    },
+    {
+      "className": "text-violet-950",
+      "description": "Sets text color to violet",
+      "origin": "Hywind",
+      "code": "color: rgb(47, 13, 104)",
+      "previewColor": {
+        "r": 47,
+        "g": 13,
+        "b": 104
+      }
+    },
+    {
+      "className": "text-purple-50",
+      "description": "Sets text color to purple",
+      "origin": "Hywind",
+      "code": "color: rgb(250, 245, 255)",
+      "previewColor": {
+        "r": 250,
+        "g": 245,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-purple-100",
+      "description": "Sets text color to purple",
+      "origin": "Hywind",
+      "code": "color: rgb(243, 232, 255)",
+      "previewColor": {
+        "r": 243,
+        "g": 232,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-purple-200",
+      "description": "Sets text color to purple",
+      "origin": "Hywind",
+      "code": "color: rgb(233, 212, 255)",
+      "previewColor": {
+        "r": 233,
+        "g": 212,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-purple-300",
+      "description": "Sets text color to purple",
+      "origin": "Hywind",
+      "code": "color: rgb(218, 178, 255)",
+      "previewColor": {
+        "r": 218,
+        "g": 178,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-purple-400",
+      "description": "Sets text color to purple",
+      "origin": "Hywind",
+      "code": "color: rgb(194, 122, 255)",
+      "previewColor": {
+        "r": 194,
+        "g": 122,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-purple-500",
+      "description": "Sets text color to purple",
+      "origin": "Hywind",
+      "code": "color: rgb(173, 70, 255)",
+      "previewColor": {
+        "r": 173,
+        "g": 70,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-purple-600",
+      "description": "Sets text color to purple",
+      "origin": "Hywind",
+      "code": "color: rgb(152, 16, 250)",
+      "previewColor": {
+        "r": 152,
+        "g": 16,
+        "b": 250
+      }
+    },
+    {
+      "className": "text-purple-700",
+      "description": "Sets text color to purple",
+      "origin": "Hywind",
+      "code": "color: rgb(130, 0, 219)",
+      "previewColor": {
+        "r": 130,
+        "g": 0,
+        "b": 219
+      }
+    },
+    {
+      "className": "text-purple-800",
+      "description": "Sets text color to purple",
+      "origin": "Hywind",
+      "code": "color: rgb(110, 17, 176)",
+      "previewColor": {
+        "r": 110,
+        "g": 17,
+        "b": 176
+      }
+    },
+    {
+      "className": "text-purple-900",
+      "description": "Sets text color to purple",
+      "origin": "Hywind",
+      "code": "color: rgb(89, 22, 139)",
+      "previewColor": {
+        "r": 89,
+        "g": 22,
+        "b": 139
+      }
+    },
+    {
+      "className": "text-purple-950",
+      "description": "Sets text color to purple",
+      "origin": "Hywind",
+      "code": "color: rgb(60, 3, 102)",
+      "previewColor": {
+        "r": 60,
+        "g": 3,
+        "b": 102
+      }
+    },
+    {
+      "className": "text-fuchsia-50",
+      "description": "Sets text color to fuchsia",
+      "origin": "Hywind",
+      "code": "color: rgb(253, 244, 255)",
+      "previewColor": {
+        "r": 253,
+        "g": 244,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-fuchsia-100",
+      "description": "Sets text color to fuchsia",
+      "origin": "Hywind",
+      "code": "color: rgb(250, 232, 255)",
+      "previewColor": {
+        "r": 250,
+        "g": 232,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-fuchsia-200",
+      "description": "Sets text color to fuchsia",
+      "origin": "Hywind",
+      "code": "color: rgb(246, 207, 255)",
+      "previewColor": {
+        "r": 246,
+        "g": 207,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-fuchsia-300",
+      "description": "Sets text color to fuchsia",
+      "origin": "Hywind",
+      "code": "color: rgb(244, 168, 255)",
+      "previewColor": {
+        "r": 244,
+        "g": 168,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-fuchsia-400",
+      "description": "Sets text color to fuchsia",
+      "origin": "Hywind",
+      "code": "color: rgb(237, 106, 255)",
+      "previewColor": {
+        "r": 237,
+        "g": 106,
+        "b": 255
+      }
+    },
+    {
+      "className": "text-fuchsia-500",
+      "description": "Sets text color to fuchsia",
+      "origin": "Hywind",
+      "code": "color: rgb(225, 42, 251)",
+      "previewColor": {
+        "r": 225,
+        "g": 42,
+        "b": 251
+      }
+    },
+    {
+      "className": "text-fuchsia-600",
+      "description": "Sets text color to fuchsia",
+      "origin": "Hywind",
+      "code": "color: rgb(200, 0, 222)",
+      "previewColor": {
+        "r": 200,
+        "g": 0,
+        "b": 222
+      }
+    },
+    {
+      "className": "text-fuchsia-700",
+      "description": "Sets text color to fuchsia",
+      "origin": "Hywind",
+      "code": "color: rgb(168, 0, 183)",
+      "previewColor": {
+        "r": 168,
+        "g": 0,
+        "b": 183
+      }
+    },
+    {
+      "className": "text-fuchsia-800",
+      "description": "Sets text color to fuchsia",
+      "origin": "Hywind",
+      "code": "color: rgb(138, 1, 148)",
+      "previewColor": {
+        "r": 138,
+        "g": 1,
+        "b": 148
+      }
+    },
+    {
+      "className": "text-fuchsia-900",
+      "description": "Sets text color to fuchsia",
+      "origin": "Hywind",
+      "code": "color: rgb(114, 19, 120)",
+      "previewColor": {
+        "r": 114,
+        "g": 19,
+        "b": 120
+      }
+    },
+    {
+      "className": "text-fuchsia-950",
+      "description": "Sets text color to fuchsia",
+      "origin": "Hywind",
+      "code": "color: rgb(75, 0, 79)",
+      "previewColor": {
+        "r": 75,
+        "g": 0,
+        "b": 79
+      }
+    },
+    {
+      "className": "text-pink-50",
+      "description": "Sets text color to pink",
+      "origin": "Hywind",
+      "code": "color: rgb(253, 242, 248)",
+      "previewColor": {
+        "r": 253,
+        "g": 242,
+        "b": 248
+      }
+    },
+    {
+      "className": "text-pink-100",
+      "description": "Sets text color to pink",
+      "origin": "Hywind",
+      "code": "color: rgb(252, 231, 243)",
+      "previewColor": {
+        "r": 252,
+        "g": 231,
+        "b": 243
+      }
+    },
+    {
+      "className": "text-pink-200",
+      "description": "Sets text color to pink",
+      "origin": "Hywind",
+      "code": "color: rgb(252, 206, 232)",
+      "previewColor": {
+        "r": 252,
+        "g": 206,
+        "b": 232
+      }
+    },
+    {
+      "className": "text-pink-300",
+      "description": "Sets text color to pink",
+      "origin": "Hywind",
+      "code": "color: rgb(253, 165, 213)",
+      "previewColor": {
+        "r": 253,
+        "g": 165,
+        "b": 213
+      }
+    },
+    {
+      "className": "text-pink-400",
+      "description": "Sets text color to pink",
+      "origin": "Hywind",
+      "code": "color: rgb(251, 100, 182)",
+      "previewColor": {
+        "r": 251,
+        "g": 100,
+        "b": 182
+      }
+    },
+    {
+      "className": "text-pink-500",
+      "description": "Sets text color to pink",
+      "origin": "Hywind",
+      "code": "color: rgb(246, 51, 154)",
+      "previewColor": {
+        "r": 246,
+        "g": 51,
+        "b": 154
+      }
+    },
+    {
+      "className": "text-pink-600",
+      "description": "Sets text color to pink",
+      "origin": "Hywind",
+      "code": "color: rgb(230, 0, 118)",
+      "previewColor": {
+        "r": 230,
+        "g": 0,
+        "b": 118
+      }
+    },
+    {
+      "className": "text-pink-700",
+      "description": "Sets text color to pink",
+      "origin": "Hywind",
+      "code": "color: rgb(198, 0, 92)",
+      "previewColor": {
+        "r": 198,
+        "g": 0,
+        "b": 92
+      }
+    },
+    {
+      "className": "text-pink-800",
+      "description": "Sets text color to pink",
+      "origin": "Hywind",
+      "code": "color: rgb(163, 0, 76)",
+      "previewColor": {
+        "r": 163,
+        "g": 0,
+        "b": 76
+      }
+    },
+    {
+      "className": "text-pink-900",
+      "description": "Sets text color to pink",
+      "origin": "Hywind",
+      "code": "color: rgb(134, 16, 67)",
+      "previewColor": {
+        "r": 134,
+        "g": 16,
+        "b": 67
+      }
+    },
+    {
+      "className": "text-pink-950",
+      "description": "Sets text color to pink",
+      "origin": "Hywind",
+      "code": "color: rgb(81, 4, 36)",
+      "previewColor": {
+        "r": 81,
+        "g": 4,
+        "b": 36
+      }
+    },
+    {
+      "className": "text-rose-50",
+      "description": "Sets text color to rose",
+      "origin": "Hywind",
+      "code": "color: rgb(255, 241, 242)",
+      "previewColor": {
+        "r": 255,
+        "g": 241,
+        "b": 242
+      }
+    },
+    {
+      "className": "text-rose-100",
+      "description": "Sets text color to rose",
+      "origin": "Hywind",
+      "code": "color: rgb(255, 228, 230)",
+      "previewColor": {
+        "r": 255,
+        "g": 228,
+        "b": 230
+      }
+    },
+    {
+      "className": "text-rose-200",
+      "description": "Sets text color to rose",
+      "origin": "Hywind",
+      "code": "color: rgb(255, 204, 211)",
+      "previewColor": {
+        "r": 255,
+        "g": 204,
+        "b": 211
+      }
+    },
+    {
+      "className": "text-rose-300",
+      "description": "Sets text color to rose",
+      "origin": "Hywind",
+      "code": "color: rgb(255, 161, 173)",
+      "previewColor": {
+        "r": 255,
+        "g": 161,
+        "b": 173
+      }
+    },
+    {
+      "className": "text-rose-400",
+      "description": "Sets text color to rose",
+      "origin": "Hywind",
+      "code": "color: rgb(255, 99, 126)",
+      "previewColor": {
+        "r": 255,
+        "g": 99,
+        "b": 126
+      }
+    },
+    {
+      "className": "text-rose-500",
+      "description": "Sets text color to rose",
+      "origin": "Hywind",
+      "code": "color: rgb(255, 32, 86)",
+      "previewColor": {
+        "r": 255,
+        "g": 32,
+        "b": 86
+      }
+    },
+    {
+      "className": "text-rose-600",
+      "description": "Sets text color to rose",
+      "origin": "Hywind",
+      "code": "color: rgb(236, 0, 63)",
+      "previewColor": {
+        "r": 236,
+        "g": 0,
+        "b": 63
+      }
+    },
+    {
+      "className": "text-rose-700",
+      "description": "Sets text color to rose",
+      "origin": "Hywind",
+      "code": "color: rgb(199, 0, 54)",
+      "previewColor": {
+        "r": 199,
+        "g": 0,
+        "b": 54
+      }
+    },
+    {
+      "className": "text-rose-800",
+      "description": "Sets text color to rose",
+      "origin": "Hywind",
+      "code": "color: rgb(165, 0, 54)",
+      "previewColor": {
+        "r": 165,
+        "g": 0,
+        "b": 54
+      }
+    },
+    {
+      "className": "text-rose-900",
+      "description": "Sets text color to rose",
+      "origin": "Hywind",
+      "code": "color: rgb(139, 8, 54)",
+      "previewColor": {
+        "r": 139,
+        "g": 8,
+        "b": 54
+      }
+    },
+    {
+      "className": "text-rose-950",
+      "description": "Sets text color to rose",
+      "origin": "Hywind",
+      "code": "color: rgb(77, 2, 24)",
+      "previewColor": {
+        "r": 77,
+        "g": 2,
+        "b": 24
+      }
+    }
+  ],
+  "props": [
+    {
+      "propName": "id",
+      "description": "Sets the element ID (accessible via PageBuilder.getById and for event listeners)."
+    },
+    {
+      "propName": "class",
+      "description": "Used for CSS styling."
+    },
+    {
+      "propName": "value",
+      "description": "Sets the initial value for input elements."
+    },
+    {
+      "propName": "min",
+      "description": "Specific to sliders (input type=\"range\")."
+    },
+    {
+      "propName": "max",
+      "description": "Specific to sliders (input type=\"range\")."
+    },
+    {
+      "propName": "step",
+      "description": "Specific to sliders (input type=\"range\")."
+    },
+    {
+      "propName": "checked",
+      "description": "Specific to checkboxes (true or false)."
+    },
+    {
+      "propName": "format",
+      "description": "Number format string for <input type=\"number\">."
+    },
+    {
+      "propName": "placeholder",
+      "description": "Hint text for text/password inputs."
+    },
+    {
+      "propName": "maxlength",
+      "description": "Maximum character limit for text/password inputs."
+    },
+    {
+      "propName": "readonly",
+      "description": "Makes text/password inputs read-only (true or false)."
+    },
+    {
+      "propName": "width",
+      "description": "Specific to <img> tag, maps to anchor-width and anchor-height."
+    },
+    {
+      "propName": "height",
+      "description": "Specific to <img> tag, maps to anchor-width and anchor-height."
+    },
+    {
+      "propName": "data-hyui-title",
+      "description": "Specific to containers/overlays to set the header title."
+    },
+    {
+      "propName": "data-hyui-tooltiptext",
+      "description": "Adds a tooltip to the element."
+    },
+    {
+      "propName": "data-hyui-item-id",
+      "description": "In-game item ID for the icon to reflect."
+    },
+    {
+      "propName": "data-hyui-show-quality-background",
+      "description": "Specific to <span class=\"item-slot\">, toggles item quality background."
+    },
+    {
+      "propName": "data-hyui-show-quantity",
+      "description": "Specific to <span class=\"item-slot\">, toggles the item quantity display."
+    },
+    {
+      "propName": "data-hyui-max-decimal-places",
+      "description": "Specific to <input type=\"number\">, sets the maximum decimal places."
+    },
+    {
+      "propName": "data-hyui-bar-texture-path",
+      "description": "Path to the progress bar's fill texture."
+    },
+    {
+      "propName": "data-hyui-effect-texture-path",
+      "description": "Path to the progress bar's effect texture."
+    },
+    {
+      "propName": "data-hyui-effect-width",
+      "description": "Customizes the progress bar's effect appearance."
+    },
+    {
+      "propName": "data-hyui-effect-height",
+      "description": "Customizes the progress bar's effect appearance."
+    },
+    {
+      "propName": "data-hyui-effect-offset",
+      "description": "Customizes the progress bar's effect appearance."
+    },
+    {
+      "propName": "data-hyui-direction",
+      "description": "Progress bar fill direction (start or end)."
+    },
+    {
+      "propName": "data-hyui-alignment",
+      "description": "Progress bar orientation (horizontal or vertical)."
+    },
+    {
+      "propName": "data-hyui-mask-texture-path",
+      "description": "Circular progress bar mask texture path."
+    },
+    {
+      "propName": "data-hyui-color",
+      "description": "Progress bar fill color (hex)."
+    },
+    {
+      "propName": "data-hyui-allowunselection",
+      "description": "Specific to <select>, allows deselecting items."
+    },
+    {
+      "propName": "data-hyui-maxselection",
+      "description": "Specific to <select>, number of maximum selectable items."
+    },
+    {
+      "propName": "data-hyui-entryheight",
+      "description": "Specific to <select>, height of each dropdown entry."
+    },
+    {
+      "propName": "data-hyui-showlabel",
+      "description": "Specific to <select>, boolean to show or hide the label."
+    },
+    {
+      "propName": "data-hyui-frame-width",
+      "description": "Specific to <sprite>, defines the sprite animation frames."
+    },
+    {
+      "propName": "data-hyui-frame-height",
+      "description": "Specific to <sprite>, defines the sprite animation frames."
+    },
+    {
+      "propName": "data-hyui-frame-per-row",
+      "description": "Specific to <sprite>, defines the sprite animation frames."
+    },
+    {
+      "propName": "data-hyui-frame-count",
+      "description": "Specific to <sprite>, defines the sprite animation frames."
+    },
+    {
+      "propName": "data-hyui-fps",
+      "description": "Specific to <sprite>, sets the animation speed."
+    },
+    {
+      "propName": "data-hyui-background-mode",
+      "description": "Specific to <div class=\"item-grid\">, sets the background mode."
+    },
+    {
+      "propName": "data-hyui-render-item-quality-background",
+      "description": "Specific to <div class=\"item-grid\">, toggles item quality background rendering."
+    },
+    {
+      "propName": "data-hyui-are-items-draggable",
+      "description": "Specific to <div class=\"item-grid\">, toggles item drag behavior."
+    },
+    {
+      "propName": "data-hyui-keep-scroll-position",
+      "description": "Specific to <div class=\"item-grid\">, keeps scroll position."
+    },
+    {
+      "propName": "data-hyui-show-scrollbar",
+      "description": "Specific to <div class=\"item-grid\">, toggles the scrollbar."
+    },
+    {
+      "propName": "data-hyui-slots-per-row",
+      "description": "Specific to <div class=\"item-grid\">, sets slots per row."
+    },
+    {
+      "propName": "data-hyui-name",
+      "description": "Specific to <div class=\"item-grid-slot\">, sets the slot label."
+    },
+    {
+      "propName": "data-hyui-description",
+      "description": "Specific to <div class=\"item-grid-slot\">, sets the slot description."
+    },
+    {
+      "propName": "data-hyui-item-incompatible",
+      "description": "Specific to <div class=\"item-grid-slot\">, toggles item incompatibility."
+    },
+    {
+      "propName": "data-hyui-item-uncraftable",
+      "description": "Specific to <div class=\"item-grid-slot\">, toggles item uncraftable state."
+    },
+    {
+      "propName": "data-hyui-activatable",
+      "description": "Specific to <div class=\"item-grid-slot\">, toggles slot activation."
+    },
+    {
+      "propName": "data-hyui-skip-item-quality-background",
+      "description": "Specific to <div class=\"item-grid-slot\">, skips item quality background."
+    },
+    {
+      "propName": "data-hyui-slot-background",
+      "description": "Specific to <div class=\"item-grid-slot\">, patch style reference for slot background."
+    },
+    {
+      "propName": "data-hyui-slot-overlay",
+      "description": "Specific to <div class=\"item-grid-slot\">, patch style reference for slot overlay."
+    },
+    {
+      "propName": "data-hyui-slot-icon",
+      "description": "Specific to <div class=\"item-grid-slot\">, patch style reference for slot icon."
+    },
+    {
+      "propName": "data-tabs",
+      "description": "Specific to <nav class=\"tabs\">, defines tabs in tabId:Label or tabId:Label:contentId format."
+    },
+    {
+      "propName": "data-selected",
+      "description": "Specific to <nav class=\"tabs\">, initial selected tab ID."
+    },
+    {
+      "propName": "data-tab-content",
+      "description": "Specific to <button> or <a> inside a tab nav, links a tab to a content ID."
+    },
+    {
+      "propName": "data-hyui-tab-id",
+      "description": "Specific to <div class=\"tab-content\">, links this content block to a tab ID."
+    },
+    {
+      "propName": "data-hyui-tab-nav",
+      "description": "Optional for <div class=\"tab-content\">, restricts it to a specific tab nav ID."
+    },
+    {
+      "propName": "data-hyui-default-label-style",
+      "description": "Custom text button label style for the default state (see Custom Buttons)."
+    },
+    {
+      "propName": "data-hyui-hovered-label-style",
+      "description": "Custom text button label style for the hovered state."
+    },
+    {
+      "propName": "data-hyui-pressed-label-style",
+      "description": "Custom text button label style for the pressed state."
+    },
+    {
+      "propName": "data-hyui-disabled-label-style",
+      "description": "Custom text button label style for the disabled state."
+    },
+    {
+      "propName": "data-hyui-default-bg",
+      "description": "Custom button background style for the default state (see Custom Buttons)."
+    },
+    {
+      "propName": "data-hyui-hovered-bg",
+      "description": "Custom button background style for the hovered state."
+    },
+    {
+      "propName": "data-hyui-pressed-bg",
+      "description": "Custom button background style for the pressed state."
+    },
+    {
+      "propName": "data-hyui-disabled-bg",
+      "description": "Custom button background style for the disabled state."
+    },
+    {
+      "propName": "data-hyui-disabled",
+      "description": "Disables a button (including custom buttons)."
+    },
+    {
+      "propName": "data-hyui-overscroll",
+      "description": "Enables overscroll handling for buttons (including custom buttons)."
+    },
+    {
+      "propName": "data-hyui-max-visible-lines",
+      "description": "Specific to <textarea>, overrides the max visible lines."
+    },
+    {
+      "propName": "data-hyui-auto-grow",
+      "description": "Specific to <textarea>, enables multiline auto-grow."
+    },
+    {
+      "propName": "data-hyui-scrollbar-style",
+      "description": "Specific to <textarea>, sets the scrollbar style reference (\"Common.ui\" \"DefaultScrollbarStyle\")."
+    },
+    {
+      "propName": "data-hyui-background",
+      "description": "Specific to <textarea>, sets the background reference (\"Common.ui\" \"InputBoxBackground\")."
+    },
+    {
+      "propName": "data-hyui-placeholder-style",
+      "description": "Specific to <textarea>, sets the placeholder style reference (\"Common.ui\" \"DefaultInputFieldPlaceholderStyle\")."
+    },
+    {
+      "propName": "data-hyui-content-padding",
+      "description": "Specific to <textarea>, sets content padding ((Horizontal:10,Vertical:8))."
+    }
+  ]
+}
