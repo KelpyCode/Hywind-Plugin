@@ -30,5 +30,18 @@
         <lang.documentationProvider language="HTML" order="first" implementationClass="li.kelp.hywindplugin.HywindDocumentationProvider"/>
         <!-- Also register for XML in case files are treated as XML/XHTML so our docs take precedence -->
         <lang.documentationProvider language="XML" order="first" implementationClass="li.kelp.hywindplugin.HywindDocumentationProvider"/>
+
+        <!-- Register reference contributor so class tokens become resolvable elements -->
+        <psi.referenceContributor implementation="li.kelp.hywindplugin.HywindClassReferenceContributor" />
+
+        <!-- Documentation provider for the lightweight resolved elements (if hovered) -->
+        <lang.documentationProvider language="HTML" implementationClass="li.kelp.hywindplugin.HywindReferenceDocumentationProvider"/>
+        <applicationConfigurable instance="li.kelp.hywindplugin.HywindConfigurable" displayName="Hywind" />
+
     </extensions>
+
+    <actions>
+        <action id="Hywind.ReloadMeta" class="li.kelp.hywindplugin.ReloadHywindAction" text="Reload Hywind Meta" description="Reload Hywind metadata from remote URL"/>
+    </actions>
+
 </idea-plugin>

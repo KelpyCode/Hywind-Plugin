@@ -10,6 +10,13 @@ class HywindDocumentationProvider : DocumentationProvider {
     override fun generateDoc(element: PsiElement?, originalElement: PsiElement?): String? {
         if (element == null) return null
 
+        // If the hovered element is a resolved HywindClassPsiElement, return its docs directly
+        if (element is HywindClassPsiElement) {
+            val name = element.name
+            val cls = HywindMetaLoader.getClasses().find { it.className == name }
+            if (cls != null) return buildClassDoc(cls.className, cls.description, cls.previewColor, cls.code, cls.origin)
+        }
+
         // If caret is on the attribute name itself (e.g. user hovered on "class"), try to prefer
         // a Hywind class from that attribute's value if available.
         if (element is XmlAttribute && element.name == "class") {
@@ -88,6 +95,17 @@ class HywindDocumentationProvider : DocumentationProvider {
     override fun getQuickNavigateInfo(element: PsiElement?, originalElement: PsiElement?): String? {
         if (element == null) return null
 
+        // If the hovered element is a resolved HywindClassPsiElement, show a short quick info
+        if (element is HywindClassPsiElement) {
+            val name = element.name
+            val cls = HywindMetaLoader.getClasses().find { it.className == name }
+            if (cls != null) {
+                val colorHex = cls.previewColor?.let { toHex(it.r, it.g, it.b) } ?: ""
+                val namePart = if (colorHex.isNotEmpty()) "$name ($colorHex)" else name
+                return "$namePart — ${shortSummary(cls.description)}"
+            }
+        }
+
         // If hovering the attribute name "class", try to show the first known Hywind class from its value
         if (element is XmlAttribute && element.name == "class") {
             val valueEl = element.valueElement
@@ -153,45 +171,96 @@ class HywindDocumentationProvider : DocumentationProvider {
             try {
                 val value = attrValue.value // unquoted value
                 val attrRange = attrValue.textRange
-                val origRange = origEl.textRange
-                // compute caret index within the value text.
-                // Prefer the midpoint of the original element (handles multi-character leaves).
-                val origMid = origRange.startOffset + origRange.length / 2
-                var caretIndex = origMid - (attrRange.startOffset + 1) // subtract opening quote
+
+                // Build tokens using regex.findAll to get exact offsets inside the unquoted value
+                val tokens = mutableListOf<Triple<Int, Int, String>>()
+                val regex = "[A-Za-z0-9:_-]+".toRegex()
+                for (m in regex.findAll(value)) {
+                    tokens.add(Triple(m.range.first, m.range.last + 1, m.value))
+                }
+
+                // Try direct match based on the original element text
+                val origText = (originalElement ?: contextElement)?.text?.trim()?.trim('"', '\'')
+                if (!origText.isNullOrBlank()) {
+                    tokens.firstOrNull { it.third == origText }?.let { return it.third }
+                    tokens.firstOrNull { it.third.contains(origText) }?.let { return it.third }
+                }
+
+                // Choose smallest overlapping PSI element (originalElement or contextElement), or attrValue
+                val candidates = listOfNotNull(originalElement, contextElement)
+                    .mapNotNull { el ->
+                        try {
+                            val r = el.textRange
+                            if (r.endOffset <= attrRange.startOffset || r.startOffset >= attrRange.endOffset) return@mapNotNull null
+                            Pair(el, r)
+                        } catch (_: Exception) {
+                            null
+                        }
+                    }
+                val chosenEl = candidates.minByOrNull { it.second.endOffset - it.second.startOffset }?.first ?: attrValue
+
+                // compute caret index inside unquoted value using chosenEl midpoint
+                val attrText = attrValue.text
+                val indexInAttr = attrText.indexOf(value).coerceAtLeast(0)
+                val valueOffset = attrRange.startOffset + indexInAttr
+
+                // Prefer using the most precise overlapping element's range for caret mapping.
+                // If originalElement or contextElement overlapped, use its start offset; otherwise use chosenEl midpoint.
+                var caretIndex: Int
+                try {
+                    val precise = listOfNotNull(originalElement, contextElement)
+                        .firstOrNull { el ->
+                            val r = el.textRange
+                            r.endOffset > attrRange.startOffset && r.startOffset < attrRange.endOffset
+                        }
+                    if (precise != null) {
+                        val r = precise.textRange
+                        // prefer the start offset so hovering at the start of a token maps inside it
+                        caretIndex = (r.startOffset - valueOffset)
+                    } else {
+                        val chosenRange = chosenEl.textRange
+                        val chosenMid = (chosenRange.startOffset + chosenRange.endOffset) / 2
+                        caretIndex = (chosenMid - valueOffset)
+                    }
+                } catch (_: Exception) {
+                    val chosenRange = chosenEl.textRange
+                    val chosenMid = (chosenRange.startOffset + chosenRange.endOffset) / 2
+                    caretIndex = (chosenMid - valueOffset)
+                }
+
                 if (caretIndex < 0) caretIndex = 0
+                if (value.isEmpty()) return null
                 if (caretIndex >= value.length) caretIndex = value.length - 1
 
-                // Scan left to token boundary
-                var left = caretIndex
-                while (left > 0) {
-                    val ch = value[left - 1]
-                    if (!ch.toString().matches("[A-Za-z0-9:_-]".toRegex())) break
-                    left--
+                // Find token that contains caretIndex
+                tokens.firstOrNull { caretIndex >= it.first && caretIndex < it.second }?.let { return it.third }
+
+                // If none contains caret, pick nearest token by center distance
+                var best: String? = null
+                var bestDist = Int.MAX_VALUE
+                for ((s, e, t) in tokens) {
+                    val center = (s + e) / 2
+                    val dist = kotlin.math.abs(center - caretIndex)
+                    if (dist < bestDist) {
+                        bestDist = dist
+                        best = t
+                    }
                 }
-                // Scan right to token boundary
-                var right = caretIndex
-                while (right < value.length - 1) {
-                    val ch = value[right + 1]
-                    if (!ch.toString().matches("[A-Za-z0-9:_-]".toRegex())) break
-                    right++
-                }
-                if (left <= right && left >= 0 && right < value.length) {
-                    val token = value.substring(left, right + 1)
-                    if (token.matches(tokenRegex)) return token
-                }
+                if (best != null) return best
+
             } catch (_: Exception) {
                 // fall through to other heuristics
             }
 
             // fallback heuristics based on originalElement text
-            val origText = origEl.text
-            if (origText.isNotBlank()) {
-                val cleaned = origText.trim().trim('"', '\'')
+            val origText2 = origEl.text
+            if (origText2.isNotBlank()) {
+                val cleaned = origText2.trim().trim('"', '\'')
                 if (cleaned.matches(tokenRegex)) return cleaned
             }
             val parts = attrValue.value.split(Regex("\\s+"))
-            parts.firstOrNull { it == origText }?.let { return it }
-            parts.firstOrNull { it.contains(origText) }?.let { return it }
+            parts.firstOrNull { it == origText2 }?.let { return it }
+            parts.firstOrNull { it.contains(origText2) }?.let { return it }
 
             // Additional fallback: prefer the first token that matches a known Hywind class
             val known = HywindMetaLoader.getClasses().map { it.className }.toSet()
